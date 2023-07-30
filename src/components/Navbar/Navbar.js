@@ -3,15 +3,23 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import Logo from "../../assets/3.png";
-import { Link } from "react-router-dom";
 import "./navbar.css";
+
+import {
+  BsFillHouseDoorFill,
+  BsPeopleFill,
+  BsChatSquareTextFill,
+} from "react-icons/bs";
+import { Link } from "react-router-dom";
 
 function NavbarReutilizable() {
   return (
     <Navbar expand="lg" className="bg-body-tertiary">
       <Container className="Container">
-        <Navbar.Brand href="#home">
-          <img src={Logo} alt="Logotipo" className="Logo" />
+        <Navbar.Brand>
+          <Link to={`/`}>
+            <img src={Logo} alt="Logotipo" className="Logo" />
+          </Link>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
@@ -26,7 +34,7 @@ function NavbarReutilizable() {
                 style={{ textDecoration: "none", color: "black" }}
                 className="Link"
               >
-                <p>Home</p>
+                <BsFillHouseDoorFill />
               </Link>
             </Nav.Link>
             <Nav.Link
@@ -39,7 +47,9 @@ function NavbarReutilizable() {
                 style={{ textDecoration: "none", color: "black" }}
                 className="Link"
               >
-                <p>Nosotros</p>
+                <p>
+                  <BsPeopleFill />
+                </p>
               </Link>
             </Nav.Link>
             <Nav.Link
@@ -52,7 +62,9 @@ function NavbarReutilizable() {
                 style={{ textDecoration: "none", color: "black" }}
                 className="Link"
               >
-                <p> Contacto</p>
+                <p>
+                  <BsChatSquareTextFill />
+                </p>
               </Link>
             </Nav.Link>
           </Nav>
