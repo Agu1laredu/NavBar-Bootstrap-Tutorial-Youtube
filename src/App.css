@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
 .App {
   text-align: center;
 }
@@ -6,11 +8,44 @@
   height: 40vmin;
   pointer-events: none;
 }
-
+h1 {
+  font-weight: 800;
+  font-family: "Lobster", cursive;
+  margin-bottom: 30px;
+}
 .CardsContainer {
-  display: flex;
+  display: grid;
   width: 70%;
   margin: auto;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  gap: 10px;
+  font-family: "Lobster", cursive;
+}
+
+@media (max-width: 768px) {
+  .CardsContainer {
+    width: 100%;
+  }
+}
+
+@media (max-width: 450px) {
+  .Card {
+    position: relative;
+    width: 85%;
+  }
+}
+
+@media (max-width: 400px) {
+  .Card {
+    position: relative;
+    width: 78%;
+  }
+}
+@media (max-width: 380px) {
+  .Card {
+    position: relative;
+    width: 75%;
+  }
 }
 
 @media (prefers-reduced-motion: no-preference) {

@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+.CardContainerProyecto {
+  width: 50%;
+  margin: auto;
+  background-color: rgba(68, 68, 68, 0.359);
+  border: 2px solid rgba(11, 11, 11, 0.42);
+}
+h2 {
+  font-weight: 800;
+  font-family: "Lobster", cursive;
+  margin-bottom: 30px;
+}
+h3 {
+  font-weight: 800;
+  font-family: "Lobster", cursive;
+  margin-bottom: 30px;
+}
+.Paraffos {
+  text-align: justify;
+  width: 50%;
+  margin: 20px auto;
+  font-size: 20px;
+  font-family: "Lobster", cursive;
+}
+
+@media (max-width: 600px) {
+  .CardContainerProyecto {
+    width: 90%;
+  }
+
+  p {
+    width: 90%;
+  }
+}

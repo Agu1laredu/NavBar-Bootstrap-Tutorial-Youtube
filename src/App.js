@@ -1,6 +1,7 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import Navbar from "./components/Navbar/Navbar";
+import Footer from "./components/Footer/Footer";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import LandingPage from "../src/assets/ImagenesCards/1.png";
@@ -12,28 +13,27 @@ function Home() {
   return (
     <div style={{ textAlign: "center" }}>
       <Navbar />
+      <h1>DIGITAL MOON</h1>
       <div className="CardsContainer">
         <Card
           style={{
-            width: "50rem",
-            gap: "10px",
-            margin: 10,
-            border: "2px solid rgba(68, 68, 68, 0.359)",
+            border: "2px solid rgba(11, 11, 11, 0.42)",
           }}
+          className="Card"
         >
           <Card.Img variant="top" src={LandingPage} />
           <Card.Body>
             <Card.Text style={{ textAlign: "justify", fontWeight: 600 }}>
               <li>
                 Una Landing Page es una página web específicamente diseñada con
-                un enfoque claro y concreto,evitan distracciones
+                un enfoque claro y concreto.
               </li>
             </Card.Text>
             <Card.Text style={{ textAlign: "justify", fontWeight: 600 }}>
               <li>
                 Su principal objetivo es guiar a los visitantes hacia una acción
                 deseada, como comprar un producto, suscribirse a un servicio o
-                completar un formulario
+                completar un formulario.
               </li>
             </Card.Text>
             <Card.Text style={{ textAlign: "justify", fontWeight: 600 }}>
@@ -47,11 +47,9 @@ function Home() {
         </Card>
         <Card
           style={{
-            width: "50rem",
-            gap: "10px",
-            margin: 10,
-            border: "2px solid rgba(68, 68, 68, 0.359)",
+            border: "2px solid rgba(11, 11, 11, 0.42)",
           }}
+          className="Card"
         >
           <Card.Img variant="top" src={Ecommerce} />
           <Card.Body>
@@ -81,11 +79,9 @@ function Home() {
         </Card>
         <Card
           style={{
-            width: "50rem",
-            gap: "10px",
-            margin: 10,
-            border: "2px solid rgba(68, 68, 68, 0.359)",
+            border: "2px solid rgba(11, 11, 11, 0.42)",
           }}
+          className="Card"
         >
           <Card.Img variant="top" src={Gestion} />
           <Card.Body>
@@ -113,11 +109,9 @@ function Home() {
         </Card>
         <Card
           style={{
-            width: "50rem",
-            gap: "10px",
-            margin: 10,
-            border: "2px solid rgba(68, 68, 68, 0.359)",
+            border: "2px solid rgba(11, 11, 11, 0.42)",
           }}
+          className="Card"
         >
           <Card.Img variant="top" src={Asesoramiento} />
           <Card.Body>
@@ -145,6 +139,7 @@ function Home() {
           </Card.Body>
         </Card>
       </div>
+      <Footer />
     </div>
   );
 }
