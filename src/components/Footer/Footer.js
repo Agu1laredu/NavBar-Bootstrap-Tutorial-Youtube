@@ -16,7 +16,10 @@ function Footer() {
             <span class="footer-info">DigitalMoon@hotmail.com</span>
           </div>
           <div class="footer-menus">
-            <div class="footer-content-container">
+            <div
+              class="footer-content-container"
+              style={{ textAlign: "justify" }}
+            >
               <span class="menu-title">menu</span>
               <p href="" class="menu-item-footer">
                 Home
@@ -28,7 +31,10 @@ function Footer() {
                 Contacto
               </p>
             </div>
-            <div class="footer-content-container">
+            <div
+              class="footer-content-container"
+              style={{ textAlign: "justify" }}
+            >
               <span class="menu-title">Servicios</span>
               <p href="" class="menu-item-footer">
                 Landing Page
