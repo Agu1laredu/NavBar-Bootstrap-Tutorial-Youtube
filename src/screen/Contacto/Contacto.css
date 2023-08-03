@@ -11,7 +11,7 @@
 }
 .contacto h2 {
   font-size: 48px;
-  font-family: "Righteous";
+  font-family: "Lobster", cursive;
   text-align: center;
   padding: 20px 0;
 }
@@ -25,6 +25,7 @@
 }
 .contacto .col input,
 .contacto .col textarea {
+  font-family: "Lobster", cursive;
   display: block;
   width: 100%;
   padding: 18px;
@@ -36,6 +37,7 @@
 }
 .contacto button {
   cursor: pointer;
+  font-family: "Lobster", cursive;
   background-color: transparent;
   border: 2px solid #fff;
   width: fit-content;
@@ -48,6 +50,7 @@
   z-index: 10;
 }
 .contacto button .overlay {
+  font-family: "Lobster", cursive;
   position: absolute;
   top: 0;
   left: 0;
@@ -78,7 +81,7 @@
   margin-bottom: 20px;
 }
 .contacto .col .info ul li i {
-  color: #1cb698;
+  font-family: "Lobster", cursive;
   display: inline-block;
   margin-right: 20px;
 }
