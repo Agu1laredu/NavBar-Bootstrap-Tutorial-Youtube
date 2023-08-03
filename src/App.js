@@ -191,7 +191,7 @@ function Home() {
                 handleShowModal("sistemas de Gestión Servicio", [
                   "Identifica los indicadores clave de rendimiento (KPIs) más importantes para tu negocio y para el funcionamiento del sistema POS. Estos KPIs pueden variar según el tipo de negocio",
                   "Un dashboard efectivo debe presentar la información de manera clara y concisa para que los usuarios puedan entenderla rápidamente. Utiliza gráficos y tablas adecuados para visualizar los datos de forma significativa y fácil de interpretar. Evita el uso de colores y elementos visuales excesivos que puedan distraer o dificultar la comprensión de la información.",
-                  ": Un sistema POS debe proporcionar información en tiempo real para tomar decisiones rápidas y efectivas. Asegúrate de que el dashboard se actualice automáticamente y refleje los datos más recientes, lo que permitirá a los usuarios supervisar el rendimiento en tiempo real y actuar ante situaciones inmediatas, como escasez de inventario o baja demanda en un producto específico.",
+                  " Un sistema POS debe proporcionar información en tiempo real para tomar decisiones rápidas y efectivas. Asegúrate de que el dashboard se actualice automáticamente y refleje los datos más recientes, lo que permitirá a los usuarios supervisar el rendimiento en tiempo real y actuar ante situaciones inmediatas, como escasez de inventario o baja demanda en un producto específico.",
                   "Se coordinara una reunion por meet para evaluar los requisitos en tiempo y forma para llegar a un acuerdo con el presupuesto valuado en $ argentinos, una vez ambas partes esten de acuerdo se comenzara a trabajar ",
                 ])
               }
