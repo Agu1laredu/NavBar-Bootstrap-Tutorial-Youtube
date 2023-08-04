@@ -74,7 +74,10 @@ function Footer() {
               <p href="" class="social-link">
                 <AiFillLinkedin style={{ fontSize: 30 }} />
               </p>
-              <p href="" class="social-link">
+              <p
+                href="https://www.instagram.com/digitalmoon.software/"
+                class="social-link"
+              >
                 <AiOutlineInstagram style={{ fontSize: 30 }} />
               </p>
               <p href="" class="social-link">
