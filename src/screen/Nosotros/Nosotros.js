@@ -1,5 +1,4 @@
 import "bootstrap/dist/css/bootstrap.min.css";
-// import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import Navbar from "../../components/Navbar/Navbar";
 import Footer from "../../components/Footer/Footer";
@@ -10,7 +9,7 @@ function Nosotros() {
   return (
     <div style={{ textAlign: "center" }}>
       <Navbar />
-      <h2>Nosotros</h2>
+      <h2>NOSOTROS</h2>
       <p className="Paraffos">
         En Digital Moon, nuestra pasión es llevar a las marcas más allá,
         impulsándolas hacia nuevas alturas en el mundo digital. Somos una
