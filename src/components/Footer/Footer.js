@@ -4,6 +4,7 @@ import {
   AiFillLinkedin,
   AiFillFacebook,
 } from "react-icons/ai";
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
@@ -21,15 +22,27 @@ function Footer() {
               style={{ textAlign: "justify" }}
             >
               <span class="menu-title">menu</span>
-              <p href="" class="menu-item-footer">
-                Home
-              </p>
-              <p href="" class="menu-item-footer">
-                Nosotros
-              </p>
-              <p href="" class="menu-item-footer">
-                Contacto
-              </p>
+              <Link to={`/`} style={{ textDecoration: "none", color: "black" }}>
+                <p href="" class="menu-item-footer">
+                  Home
+                </p>
+              </Link>
+              <Link
+                to={`/Nosotros`}
+                style={{ textDecoration: "none", color: "black" }}
+              >
+                <p href="" class="menu-item-footer">
+                  Nosotros
+                </p>
+              </Link>
+              <Link
+                to={`/Contacto`}
+                style={{ textDecoration: "none", color: "black" }}
+              >
+                <p href="" class="menu-item-footer">
+                  Contacto
+                </p>
+              </Link>
             </div>
             <div
               class="footer-content-container"

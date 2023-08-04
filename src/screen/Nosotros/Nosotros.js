@@ -52,13 +52,19 @@ function Nosotros() {
       </p>
       <h3>Nuestros Proyectos</h3>
       <Card className="CardContainerProyecto">
-        <Card.Img
-          variant="top"
-          src={DigitalLena}
-          style={{
-            borderBottom: "2px solid rgba(11, 11, 11, 0.42)",
-          }}
-        />
+        <a
+          href="https://digital-lena.vercel.app/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <Card.Img
+            variant="top"
+            src={DigitalLena}
+            style={{
+              borderBottom: "2px solid rgba(11, 11, 11, 0.42)",
+            }}
+          />
+        </a>
         <Card.Body>
           <Card.Title>Digital Lena</Card.Title>
           <Card.Text>
