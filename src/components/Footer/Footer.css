@@ -89,6 +89,8 @@ footer .website-logo {
 .social-link {
   height: 100%;
   width: 30px;
+  text-decoration: none;
+  color: aliceblue;
   background-size: 70%;
   background-position: center;
   margin-right: 1rem;
