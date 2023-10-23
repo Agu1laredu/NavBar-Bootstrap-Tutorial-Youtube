@@ -1,35 +1,224 @@
-@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
-
-.CardContainerProyecto {
-  width: 50%;
-  margin: auto;
-  background-color: rgba(68, 68, 68, 0.359);
-  border: 2px solid rgba(11, 11, 11, 0.42);
-}
-h2 {
-  font-weight: 800;
-  font-family: "Lobster", cursive;
-  margin-bottom: 30px;
-}
-h3 {
-  font-weight: 800;
-  font-family: "Lobster", cursive;
-  margin-bottom: 30px;
-}
-.Paraffos {
-  text-align: justify;
-  width: 50%;
-  margin: 20px auto;
-  font-size: 20px;
-  font-family: "Lobster", cursive;
+.ContainerNosotros {
+  z-index: 3000;
+  position: relative;
+  top: 250px;
+  width: 1800px;
+  height: 1524px;
+  background: #1e293b;
 }
 
-@media (max-width: 600px) {
-  .CardContainerProyecto {
-    width: 90%;
+.ButtonNosotros {
+  margin-top: 200px;
+  margin-left: 100px;
+  width: 400px;
+  height: 80px;
+  flex-shrink: 0;
+  border-radius: 40px;
+  border: 3px solid #7294c2;
+  background: linear-gradient(266deg, #5b245c 5.02%, #4263b4 142.75%);
+  z-index: 3000;
+}
+
+.SobreNosotros {
+  color: #fff;
+  text-align: center;
+  font-family: Kodchasan;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 80px; /* 250% */
+}
+
+.Parrafo {
+  margin-top: -500px;
+  margin-left: 100px;
+  width: 1202px;
+  color: #fff;
+  font-family: Kodchasan;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100px; /* 416.667% */
+  z-index: 35;
+}
+.HeardTopOne {
+  position: relative;
+  top: -20%;
+  left: 88%;
+  display: flex;
+  height: 357.631px;
+  flex-shrink: 0;
+  z-index: 30;
+}
+.HeardTopTwo {
+  position: relative;
+  top: 2%;
+  left: 88%;
+  display: flex;
+  height: 357.631px;
+  flex-shrink: 0;
+  z-index: 20;
+}
+.HeardOne {
+  position: relative;
+  left: -3%;
+  top: 1%;
+  display: flex;
+  width: 477px;
+  height: 477px;
+  padding: 60.36px 40.302px 59.009px 40.284px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  z-index: 10;
+}
+.HeardTwo {
+  position: relative;
+  top: -32%;
+  left: -3%;
+  display: flex;
+  width: 477px;
+  height: 477px;
+  padding: 60.36px 40.302px 59.009px 40.284px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  z-index: 10;
+}
+@media (min-width: 3300px) {
+  .ContainerNosotros {
+    position: relative;
+    top: 700px;
+    width: 3600px;
+  }
+  .ButtonNosotros {
+    margin-top: 300px;
+    margin-left: 300px;
+    width: 800px;
+    height: 140px;
+  }
+  .SobreNosotros {
+    font-size: 55px;
+  }
+  .Parrafo {
+    margin-top: -1500px;
+    margin-left: 300px;
+    width: 2500px;
+    color: #fff;
+    font-family: Kodchasan;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 200px; /* 416.667% */
+  }
+  .HeardTopOne {
+    position: relative;
+    top: -40%;
+    left: 80%;
+    display: flex;
+    width: 800px;
+    height: 800px;
+    flex-shrink: 0;
+    z-index: 2;
+  }
+  .HeardTopTwo {
+    position: relative;
+    top: 10%;
+    left: 80%;
+    display: flex;
+    width: 800px;
+    height: 800px;
+    flex-shrink: 0;
+    z-index: 1;
   }
 
-  .Paraffos {
-    width: 90%;
+  .HeardTwo {
+    display: flex;
+    width: 800px;
+    height: 800px;
+    flex-shrink: 0;
+    z-index: 1;
+  }
+  .HeardOne {
+    top: 23%;
+    display: flex;
+    width: 800px;
+    height: 800px;
+    flex-shrink: 0;
+    z-index: 1;
+  }
+}
+@media (max-width: 1500px) {
+  .ContainerNosotros {
+    width: 100%;
+  }
+  .Parrafo {
+    margin-top: -600px;
+    margin-left: 90px;
+    width: 1000px;
+    color: #fff;
+    font-family: Kodchasan;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100px; /* 416.667% */
+    z-index: 3000;
+  }
+  .HeardTopOne {
+    position: relative;
+    top: -20%;
+    left: 80%;
+    display: flex;
+    height: 357.631px;
+    flex-shrink: 0;
+    z-index: 2;
+  }
+  .HeardTopTwo {
+    position: relative;
+    top: 2%;
+    left: 80%;
+    display: flex;
+    height: 357.631px;
+    flex-shrink: 0;
+    z-index: 1;
+  }
+}
+
+@media (max-width: 1300px) {
+  .ContainerNosotros {
+    width: 114%;
+  }
+  .seccionParrafo {
+    z-index: 3000;
+  }
+  .Parrafo {
+    margin-top: -600px;
+    margin-left: 90px;
+    width: 840px;
+    color: #fff;
+    font-family: Kodchasan;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100px; /* 416.667% */
+    z-index: 3000;
+  }
+  .HeardTopOne {
+    position: relative;
+    top: -20%;
+    left: 80%;
+    display: flex;
+    height: 357.631px;
+    flex-shrink: 0;
+    z-index: 2;
+  }
+  .HeardTopTwo {
+    position: relative;
+    top: 2%;
+    left: 80%;
+    display: flex;
+    height: 357.631px;
+    flex-shrink: 0;
+    z-index: 1;
   }
 }

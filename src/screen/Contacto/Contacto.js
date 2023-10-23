@@ -1,12 +1,10 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./Contacto.css";
-import Navbar from "../../components/Navbar/Navbar";
 import Footer from "../../components/Footer/Footer";
 
 function Contacto() {
   return (
     <div style={{ textAlign: "center" }}>
-      <Navbar />
       <section id="contacto" class="contacto">
         <div class="contenido-seccion">
           <h2>CONTACTO</h2>
