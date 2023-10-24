@@ -1,0 +1,30 @@
+.ContainerClients {
+  z-index: 3000;
+  width: 1800px;
+  position: relative;
+  top: 200px;
+  height: 1524px;
+  background: #1e293b;
+}
+
+.ButtonClients {
+  margin-top: 200px;
+  margin-left: 100px;
+  width: 650px;
+  height: 80px;
+  flex-shrink: 0;
+  border-radius: 40px;
+  border: 3px solid #7294c2;
+  background: linear-gradient(266deg, #5b245c 5.02%, #4263b4 142.75%);
+  z-index: 3000;
+}
+
+.clients {
+  color: #fff;
+  text-align: center;
+  font-family: Kodchasan;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 80px; /* 250% */
+}
