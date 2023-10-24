@@ -243,6 +243,21 @@ h1 {
     z-index: 12;
   }
 }
+@media (max-width: 1400px) {
+  h1 {
+    position: relative;
+    left: 210px;
+    width: 747px;
+    height: 235px;
+  }
+  .Button {
+    position: relative;
+    left: 550px;
+    top: 50px;
+    width: 350px;
+    height: 80px;
+  }
+}
 @media (max-width: 1500px) {
   .App {
     width: 80%;

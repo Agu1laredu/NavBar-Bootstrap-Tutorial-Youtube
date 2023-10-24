@@ -40,7 +40,12 @@ function App() {
       >
         <SwiperSlide>
           <div className="Swiper-Container">
-            <img src={ImagenUno} alt="slide_image" className="ImagenSwiper" />
+            <img
+              src={ImagenUno}
+              alt="slide_image"
+              className="ImagenSwiper"
+              id="digital"
+            />
           </div>
         </SwiperSlide>
         <SwiperSlide>

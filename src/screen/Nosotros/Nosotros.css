@@ -302,6 +302,11 @@
     height: 43.75px;
   }
 }
+@media (max-width: 1400px) {
+  .ContainerNosotros {
+    width: 120%;
+  }
+}
 
 @media (max-width: 1300px) {
   .ContainerNosotros {
