@@ -304,7 +304,15 @@
 }
 @media (max-width: 1400px) {
   .ContainerNosotros {
-    width: 120%;
+    width: 100%;
+  }
+  .HeardTopOne {
+    left: 75%;
+    z-index: -400;
+  }
+  .HeardTopTwo {
+    left: 75%;
+    z-index: -400;
   }
 }
 

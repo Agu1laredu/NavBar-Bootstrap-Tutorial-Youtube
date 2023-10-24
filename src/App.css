@@ -257,6 +257,71 @@ h1 {
     width: 350px;
     height: 80px;
   }
+  .Poligono1 {
+    position: absolute;
+    top: -50px;
+    left: -400px;
+    z-index: 15;
+  }
+
+  .Poligono2 {
+    position: absolute;
+    top: -450px;
+    left: -500px;
+    z-index: 16;
+  }
+
+  .Poligono3 {
+    position: absolute;
+    top: -500px;
+    left: -200px;
+    z-index: 47;
+  }
+  .Poligono5 {
+    position: absolute;
+    top: -600px;
+    left: -50px;
+    z-index: 60;
+  }
+
+  .Poligono6 {
+    position: absolute;
+    top: -600px;
+    left: 2px;
+    z-index: 60;
+  }
+
+  .Poligono7 {
+    position: absolute;
+    top: -300px;
+    left: -1500px;
+    z-index: 60;
+  }
+  .Poligono8 {
+    position: absolute;
+    top: -10px;
+    left: 10px;
+    z-index: 40;
+  }
+  .Poligono9 {
+    position: absolute;
+    top: -200px;
+    left: -400px;
+    z-index: 16;
+  }
+  .Poligono10 {
+    position: absolute;
+    top: -300px;
+    left: -200px;
+    z-index: 20;
+  }
+  .Poligono11 {
+    position: absolute;
+    top: -300px;
+    left: 10px;
+
+    z-index: 12;
+  }
 }
 @media (max-width: 1500px) {
   .App {
