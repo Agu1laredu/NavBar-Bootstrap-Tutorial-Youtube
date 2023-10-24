@@ -1,8 +1,8 @@
 .containerSwiper {
   max-width: 45%;
   padding: 4rem 1rem;
+  margin: auto;
   margin-top: 200px;
-  margin-left: 30%;
 }
 
 .swiper_container {
@@ -46,8 +46,8 @@
 
 .slider-controler {
   position: relative;
-  bottom: 20rem;
-  left: 35%;
+  bottom: 5rem;
+  left: 40%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -126,4 +126,112 @@
   border-radius: 30px;
   border: 6px solid #7294c2;
   background: linear-gradient(143deg, #6b609a 1.47%, #5b265f 99.16%);
+}
+
+@media (min-width: 3000px) {
+  .swiper-slide img {
+    margin: auto 25%;
+    width: 700px;
+    height: 680px;
+  }
+  .Swiper-Container {
+    width: 100%;
+    height: 800px;
+  }
+  .swiper_container {
+    height: 82rem;
+  }
+
+  .slider-controler {
+    left: 45%;
+  }
+}
+
+@media (max-width: 1300px) {
+  .containerSwiper {
+    margin-left: 350px;
+  }
+  .swiper-slide img {
+    margin-left: 200px;
+    width: 300px;
+    height: 380px;
+  }
+  .Swiper-Container {
+    width: 100%;
+    height: 400px;
+  }
+  .swiper_container {
+    height: 82rem;
+    width: 800px;
+  }
+
+  .slider-controler {
+    left: 42%;
+    bottom: 35rem;
+  }
+}
+@media (max-width: 1100px) {
+  .containerSwiper {
+    margin-left: 100px;
+  }
+  .swiper-slide img {
+    margin-left: 250px;
+    width: 300px;
+    height: 380px;
+  }
+  .Swiper-Container {
+    width: 100%;
+    height: 400px;
+  }
+  .swiper_container {
+    height: 82rem;
+    width: 800px;
+  }
+
+  .slider-controler {
+    left: 42%;
+    bottom: 35rem;
+  }
+}
+@media (max-width: 800px) {
+  .containerSwiper {
+    margin-left: 210px;
+  }
+  .swiper_container {
+    height: 70%;
+    position: relative;
+    left: -210px;
+  }
+  .Swiper-Container {
+    width: 90%;
+    height: 400px;
+  }
+  .slider-controler {
+    left: 42%;
+    bottom: 1rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .containerSwiper {
+    height: 500px;
+  }
+  .swiper_container {
+    height: 120%;
+    position: relative;
+    left: -210px;
+  }
+  .Swiper-Container {
+    width: 100%;
+    height: 450px;
+  }
+  .slider-controler {
+    left: 42%;
+    bottom: 1rem;
+  }
+  .swiper-slide img {
+    margin-left: 5px;
+    width: 50px;
+    height: 80px;
+  }
 }

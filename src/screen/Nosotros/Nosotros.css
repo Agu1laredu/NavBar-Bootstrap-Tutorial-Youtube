@@ -162,6 +162,7 @@
     color: #fff;
     font-family: Kodchasan;
     font-size: 80px;
+    line-height: 200px;
   }
   .HeardTopOne {
     position: relative;
@@ -236,7 +237,7 @@
 }
 @media (max-width: 1500px) {
   .ContainerNosotros {
-    width: 100%;
+    width: 80%;
   }
   .Parrafo {
     margin-top: -600px;
@@ -304,86 +305,11 @@
 
 @media (max-width: 1300px) {
   .ContainerNosotros {
-    width: 114%;
+    width: 120%;
   }
   .seccionParrafo {
     z-index: 3000;
-  }
-  .Parrafo {
-    margin-top: -500px;
-    margin-left: 90px;
-    width: 840px;
-    color: #fff;
-    font-family: Kodchasan;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 100px; /* 416.667% */
-  }
-  .HeardTopOne {
-    position: relative;
-    top: 1%;
-    left: 80%;
-    display: flex;
-    height: 357.631px;
-  }
-  .HeardTopTwo {
-    position: absolute;
-    top: 20%;
-    left: 80%;
-    display: flex;
-    height: 357.631px;
-  }
-  .CarritoOne {
-    position: relative;
-    top: -40%;
-    left: 38%;
-    width: 391.674px;
-    height: 304.167px;
-  }
-  .CarritoTwo {
-    position: relative;
-    top: -80%;
-    left: 10%;
-    width: 391.674px;
-    height: 304.167px;
-  }
-  .CarritoCirculo {
-    position: relative;
-    top: 130px;
-    left: 8%;
-    width: 43.75px;
-    height: 43.75px;
-  }
-  .CarritoCirculoTwo {
-    position: relative;
-    top: 115px;
-    left: 4%;
-    width: 43.75px;
-    height: 43.75px;
-  }
-  .CarritoCirculoUno {
-    position: relative;
-    top: 180px;
-    left: -8%;
-    width: 43.75px;
-    height: 43.75px;
-  }
-  .CarritoCirculoDos {
-    position: relative;
-    top: 155px;
-    left: -12%;
-    width: 43.75px;
-    height: 43.75px;
-  }
-}
-
-@media (max-width: 1300px) {
-  .ContainerNosotros {
-    width: 110%;
-  }
-  .seccionParrafo {
-    z-index: 3000;
+    width: 5%;
   }
   .Parrafo {
     margin-top: -250px;
@@ -399,7 +325,7 @@
   .HeardTopOne {
     position: relative;
     top: 1%;
-    left: 67%;
+    left: 90%;
     display: flex;
     height: 357.631px;
     z-index: -400;
@@ -407,7 +333,7 @@
   .HeardTopTwo {
     position: absolute;
     top: 20%;
-    left: 67%;
+    left: 90%;
     display: flex;
     height: 357.631px;
     z-index: -400;
@@ -466,5 +392,12 @@
     display: flex;
     height: 357.631px;
     z-index: -400;
+  }
+  .HeardTwo {
+    display: none;
+  }
+  .HeardOne {
+    top: -23%;
+    z-index: -3000;
   }
 }

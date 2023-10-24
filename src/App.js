@@ -42,8 +42,6 @@ function Home() {
         <img src={Poligono5} alt="Logotipo" className="Poligono5" />
         <img src={Poligono6} alt="Logotipo" className="Poligono6" />
         <img src={Poligono7} alt="Logotipo" className="Poligono7" />
-
-        {/* <Footer /> */}
       </div>
       <SobreNosotros />
       <Clients />

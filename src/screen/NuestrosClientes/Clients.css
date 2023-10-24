@@ -1,8 +1,8 @@
 .ContainerClients {
   z-index: 3000;
-  width: 1800px;
   position: relative;
-  top: 80px;
+  top: 200px;
+  width: 1800px;
   height: 1524px;
   background: #1e293b;
 }
@@ -27,4 +27,26 @@
   font-style: normal;
   font-weight: 700;
   line-height: 80px; /* 250% */
+}
+@media (min-width: 3300px) {
+  .ContainerClients {
+    position: relative;
+    top: 2500px;
+    width: 3600px;
+  }
+}
+@media (max-width: 1500px) {
+  .ContainerClients {
+    width: 80%;
+  }
+}
+@media (max-width: 1300px) {
+  .ContainerClients {
+    width: 40%;
+  }
+}
+@media (max-width: 800px) {
+  .ContainerClients {
+    width: 100%;
+  }
 }
