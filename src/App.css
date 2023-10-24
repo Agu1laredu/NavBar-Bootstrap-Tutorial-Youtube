@@ -148,39 +148,11 @@ h1 {
   h1 {
     position: relative;
     left: 50px;
-    width: 800px;
-    height: 235px;
-    flex-shrink: 0;
-    color: #fff;
-    text-align: center;
-    font-family: Kodchasan;
-    font-size: 90px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 80px; /* 125% */
-    z-index: 3000;
   }
   .Button {
     position: relative;
     left: 1630px;
     top: 50px;
-    width: 450px;
-    height: 100px;
-    flex-shrink: 0;
-    border-radius: 40px;
-    border: 3px solid #7294c2;
-    background: linear-gradient(266deg, #5b245c 5.02%, #4263b4 142.75%);
-    box-shadow: 7px 7px 7px 7px rgba(0, 0, 0, 0.5);
-    z-index: 3000;
-  }
-  .Span {
-    color: #fff;
-    text-align: center;
-    font-family: Kodchasan;
-    font-size: 50px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 80px; /* 333.333% */
   }
 
   .Poligono1 {
@@ -190,7 +162,6 @@ h1 {
     width: 120%;
     height: 100%;
     z-index: 15;
-    overflow: hidden;
   }
 
   .Poligono2 {
@@ -200,7 +171,6 @@ h1 {
     width: 120%;
     height: 100%;
     z-index: 16;
-    overflow: hidden;
   }
 
   .Poligono3 {
@@ -210,7 +180,6 @@ h1 {
     width: 120%;
     height: 110%;
     z-index: 47;
-    overflow: hidden;
   }
   .Poligono5 {
     position: absolute;
@@ -219,7 +188,6 @@ h1 {
     width: 120%;
     height: 110%;
     z-index: 60;
-    overflow: hidden;
   }
 
   .Poligono6 {
@@ -229,7 +197,6 @@ h1 {
     width: 120%;
     height: 110%;
     z-index: 60;
-    overflow: hidden;
   }
 
   .Poligono7 {
@@ -239,7 +206,6 @@ h1 {
     width: 120%;
     height: 100%;
     z-index: 60;
-    overflow: hidden;
   }
   .Poligono8 {
     position: absolute;
@@ -248,7 +214,6 @@ h1 {
     width: 1900px;
     height: 2000px;
     z-index: 40;
-    overflow: hidden;
   }
   .Poligono9 {
     position: absolute;
@@ -257,7 +222,6 @@ h1 {
     width: 130%;
     height: 100%;
     z-index: 16;
-    overflow: hidden;
   }
   .Poligono10 {
     position: absolute;
@@ -266,7 +230,6 @@ h1 {
     width: 80%;
     height: 120%;
     z-index: 20;
-    overflow: hidden;
   }
   .Poligono11 {
     position: absolute;
@@ -275,7 +238,6 @@ h1 {
     width: 80%;
     height: 120%;
     z-index: 12;
-    overflow: hidden;
   }
 }
 @media (max-width: 1500px) {
@@ -301,7 +263,6 @@ h1 {
     right: -900px;
     width: 360px;
     height: 360px;
-    flex-shrink: 0;
   }
 
   h1 {
@@ -309,15 +270,6 @@ h1 {
     left: 250px;
     width: 747px;
     height: 235px;
-    flex-shrink: 0;
-    color: #fff;
-    text-align: center;
-    font-family: Kodchasan;
-    font-size: 64px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 80px; /* 125% */
-    z-index: 3000;
   }
   .Button {
     position: relative;
@@ -325,21 +277,12 @@ h1 {
     top: 50px;
     width: 350px;
     height: 80px;
-    flex-shrink: 0;
-    border-radius: 40px;
-    border: 3px solid #7294c2;
-    background: linear-gradient(266deg, #5b245c 5.02%, #4263b4 142.75%);
-    box-shadow: 7px 7px 7px 7px rgba(0, 0, 0, 0.5);
-    z-index: 3000;
   }
   .Span {
     color: #fff;
     text-align: center;
     font-family: Kodchasan;
     font-size: 24px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 80px; /* 333.333% */
   }
 
   .Poligono1 {
@@ -348,8 +291,6 @@ h1 {
     left: -100px;
     width: 1400px;
     height: 1500px;
-    z-index: 50;
-    overflow: hidden;
   }
 
   .Poligono2 {
@@ -358,8 +299,6 @@ h1 {
     left: 10px;
     width: 1000px;
     height: 1600px;
-    z-index: 48;
-    overflow: hidden;
   }
 
   .Poligono3 {
@@ -368,8 +307,6 @@ h1 {
     left: -50px;
     width: 900px;
     height: 1800px;
-    z-index: 47;
-    overflow: hidden;
   }
   .Poligono5 {
     position: absolute;
@@ -377,8 +314,6 @@ h1 {
     left: -50px;
     width: 900px;
     height: 2100px;
-    z-index: 60;
-    overflow: hidden;
   }
 
   .Poligono6 {
@@ -387,8 +322,6 @@ h1 {
     left: -65px;
     width: 750px;
     height: 2100px;
-    z-index: 60;
-    overflow: hidden;
   }
 
   .Poligono7 {
@@ -397,8 +330,6 @@ h1 {
     left: -1px;
     width: 900px;
     height: 2100px;
-    z-index: 60;
-    overflow: hidden;
   }
   .Poligono8 {
     position: absolute;
@@ -406,8 +337,6 @@ h1 {
     left: 10px;
     width: 1900px;
     height: 2000px;
-    z-index: 40;
-    overflow: hidden;
   }
   .Poligono9 {
     position: absolute;
@@ -415,8 +344,6 @@ h1 {
     left: 5px;
     width: 900px;
     height: 1100px;
-    z-index: 42;
-    overflow: hidden;
   }
   .Poligono10 {
     position: absolute;
@@ -424,16 +351,122 @@ h1 {
     left: 5px;
     width: 1000px;
     height: 2500px;
-    z-index: 30;
-    overflow: hidden;
   }
   .Poligono11 {
     position: absolute;
     top: -1100px;
     left: 5px;
-    width: 1200px;
-    height: 2600px;
-    z-index: 41;
-    overflow: hidden;
+  }
+}
+@media (max-width: 1200px) {
+  .ContainerMax {
+    width: 60%;
+  }
+  .App {
+    width: 50%;
+  }
+  .Logo {
+    position: relative;
+    right: -600px;
+  }
+
+  h1 {
+    position: relative;
+    left: 200px;
+  }
+  .Button {
+    left: 380px;
+  }
+
+  .Poligono1 {
+    position: absolute;
+    top: -360px;
+    left: -100px;
+    width: 700px;
+  }
+
+  .Poligono2 {
+    position: absolute;
+    top: -250px;
+    left: 10px;
+    width: 400px;
+  }
+
+  .Poligono3 {
+    position: absolute;
+    top: -700px;
+    left: -50px;
+    width: 400px;
+  }
+  .Poligono5 {
+    position: absolute;
+    top: -1000px;
+    left: -50px;
+    width: 400px;
+  }
+
+  .Poligono6 {
+    position: absolute;
+    top: -1150px;
+    left: -65px;
+    width: 320px;
+  }
+
+  .Poligono7 {
+    position: absolute;
+    top: -1000px;
+    left: -1px;
+    width: 350px;
+  }
+  .Poligono8 {
+    position: absolute;
+    top: -10px;
+    left: 10px;
+    width: 2200px;
+    height: 2000px;
+  }
+  .Poligono9 {
+    position: absolute;
+    top: -10px;
+    left: 5px;
+    width: 300px;
+  }
+  .Poligono10 {
+    position: absolute;
+    top: -1100px;
+    left: -50px;
+    width: 580px;
+    height: 2500px;
+  }
+  .Poligono11 {
+    position: absolute;
+    top: -1100px;
+    left: -50px;
+    width: 500px;
+  }
+}
+
+@media (max-width: 800px) {
+  .ContainerMax {
+    width: 60%;
+  }
+  .App {
+    width: 50%;
+  }
+  .Logo {
+    position: relative;
+    right: -400px;
+    width: 360px;
+    height: 360px;
+  }
+
+  h1 {
+    position: relative;
+    left: 50px;
+  }
+  .Button {
+    position: relative;
+    left: 250px;
+    top: 50px;
   }
 }
