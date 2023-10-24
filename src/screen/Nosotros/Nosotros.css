@@ -303,7 +303,7 @@
     height: 43.75px;
   }
 }
-@media (max-width: 1400px) {
+@media (max-width: 1440px) {
   .ContainerNosotros {
     width: 100%;
   }
@@ -335,9 +335,9 @@
   }
 }
 
-@media (max-width: 1300px) {
+@media (max-width: 1280px) {
   .ContainerNosotros {
-    width: 120%;
+    width: 90%;
   }
   .seccionParrafo {
     z-index: 3000;
@@ -357,7 +357,7 @@
   .HeardTopOne {
     position: relative;
     top: 1%;
-    left: 90%;
+    left: 87%;
     display: flex;
     height: 357.631px;
     z-index: -400;
@@ -365,7 +365,7 @@
   .HeardTopTwo {
     position: absolute;
     top: 20%;
-    left: 90%;
+    left: 87%;
     display: flex;
     height: 357.631px;
     z-index: -400;

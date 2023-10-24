@@ -324,6 +324,9 @@ h1 {
   }
 }
 @media (max-width: 1500px) {
+  .ContainerMax {
+    width: 100%;
+  }
   .App {
     width: 80%;
   }
@@ -333,9 +336,9 @@ h1 {
   }
 }
 
-@media (max-width: 1300px) {
+@media (max-width: 1366px) {
   .ContainerMax {
-    width: 90%;
+    width: 100%;
   }
   .App {
     width: 50%;
@@ -440,7 +443,7 @@ h1 {
     left: 5px;
   }
 }
-@media (max-width: 1200px) {
+@media (max-width: 1280px) {
   .ContainerMax {
     width: 60%;
   }
@@ -449,15 +452,15 @@ h1 {
   }
   .Logo {
     position: relative;
-    right: -600px;
+    right: -900px;
   }
 
   h1 {
     position: relative;
-    left: 180px;
+    left: 200px;
   }
   .Button {
-    left: 380px;
+    left: 400px;
   }
 
   .Poligono1 {
@@ -525,6 +528,17 @@ h1 {
     top: -1100px;
     left: -50px;
     width: 500px;
+  }
+}
+@media (max-width: 1024px) {
+  .Logo {
+    right: -600px;
+  }
+  h1 {
+    left: 150px;
+  }
+  .Button {
+    left: 350px;
   }
 }
 
