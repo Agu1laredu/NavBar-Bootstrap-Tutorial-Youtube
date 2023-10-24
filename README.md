@@ -1,4 +1,4 @@
-# DITITL MOON
+# DIGITAL MOON
 
 Est proyecto es una Landing Page para mi side project como agencia digital , mi pequeña start up brinda servicios de desarrollo web , diseño UX / UI , Diseño grafico y planes de marketing digital con  Community manager 
 
