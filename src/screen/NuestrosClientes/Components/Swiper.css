@@ -148,14 +148,14 @@
 }
 @media (max-width: 1400px) {
   .containerSwiper {
-    margin-left: 350px;
+    margin-left: 300px;
   }
   #digital {
     width: 260px;
     height: 320px;
   }
   .swiper-slide img {
-    margin-left: 300px;
+    margin-left: 250px;
     margin-top: 10px;
     width: 200px;
     height: 320px;

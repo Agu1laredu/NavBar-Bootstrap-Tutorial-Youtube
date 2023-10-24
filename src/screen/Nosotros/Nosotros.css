@@ -235,6 +235,7 @@
     height: 100.75px;
   }
 }
+
 @media (max-width: 1500px) {
   .ContainerNosotros {
     width: 80%;
@@ -313,6 +314,24 @@
   .HeardTopTwo {
     left: 75%;
     z-index: -400;
+  }
+  .CarritoOne {
+    left: 25%;
+  }
+  .CarritoTwo {
+    left: 27%;
+  }
+  .CarritoCirculo {
+    left: 53%;
+  }
+  .CarritoCirculoTwo {
+    left: 53%;
+  }
+  .CarritoCirculoUno {
+    left: 45%;
+  }
+  .CarritoCirculoDos {
+    left: 45%;
   }
 }
 
