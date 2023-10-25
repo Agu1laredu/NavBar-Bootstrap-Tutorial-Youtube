@@ -583,3 +583,92 @@ h1 {
     top: 50px;
   }
 }
+@media (max-width: 390px) {
+  .ContainerMax {
+    width: 40%;
+  }
+  .App {
+    width: 30%;
+    height: 50px;
+  }
+  .Logo {
+    position: relative;
+    right: -15px;
+    height: 350px;
+  }
+
+  h1 {
+    position: relative;
+    font-size: 25px;
+    width: 405px;
+    top: -100px;
+    left: -10px;
+  }
+  .Button {
+    top: -180px;
+    left: 20px;
+  }
+
+  .Poligono1 {
+    display: none;
+  }
+
+  .Poligono2 {
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    width: 350px;
+    height: 1200px;
+  }
+
+  .Poligono3 {
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    width: 350px;
+    height: 1200px;
+  }
+  .Poligono5 {
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    width: 350px;
+    height: 1100px;
+  }
+
+  .Poligono6 {
+    display: none;
+  }
+
+  .Poligono7 {
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    width: 180px;
+    height: 800px;
+  }
+  .Poligono8 {
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    width: 350px;
+    height: 900px;
+  }
+  .Poligono9 {
+    display: none;
+  }
+  .Poligono10 {
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    width: 350px;
+    height: 1050px;
+  }
+  .Poligono11 {
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    width: 450px;
+    height: 900px;
+  }
+}

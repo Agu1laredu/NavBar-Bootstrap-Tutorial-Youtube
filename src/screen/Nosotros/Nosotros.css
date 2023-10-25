@@ -433,3 +433,61 @@
     z-index: -3000;
   }
 }
+
+@media (max-width: 390px) {
+  .ContainerNosotros {
+    position: relative;
+    top: 700px;
+    width: 30%;
+  }
+  .ButtonNosotros {
+    margin-top: 50px;
+    margin-left: 80px;
+    width: 250px;
+    height: 80px;
+  }
+  .SobreNosotros {
+    font-size: 25px;
+  }
+  .Parrafo {
+    margin-top: 30px;
+    margin-left: 10px;
+    width: 380px;
+    color: #fff;
+    font-family: Kodchasan;
+    font-size: 20px;
+    line-height: 50px;
+    text-align: justify;
+  }
+  .HeardTopOne {
+    display: none;
+  }
+  .HeardTopTwo {
+    display: none;
+  }
+
+  .HeardTwo {
+    display: none;
+  }
+  .HeardOne {
+    display: none;
+  }
+  .CarritoOne {
+    display: none;
+  }
+  .CarritoTwo {
+    display: none;
+  }
+  .CarritoCirculo {
+    display: none;
+  }
+  .CarritoCirculoTwo {
+    display: none;
+  }
+  .CarritoCirculoUno {
+    display: none;
+  }
+  .CarritoCirculoDos {
+    display: none;
+  }
+}
