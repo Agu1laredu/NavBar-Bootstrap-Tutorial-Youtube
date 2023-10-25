@@ -45,6 +45,11 @@
     width: 40%;
   }
 }
+@media (max-width: 1280px) {
+  .ContainerClients {
+    width: 40%;
+  }
+}
 @media (max-width: 800px) {
   .ContainerClients {
     width: 100%;

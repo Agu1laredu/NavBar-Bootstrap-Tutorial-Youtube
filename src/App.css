@@ -335,6 +335,23 @@ h1 {
     right: -900px;
   }
 }
+@media (max-width: 1440px) {
+  .ContainerMax {
+    width: 100%;
+  }
+  .App {
+    width: 80%;
+  }
+  .Logo {
+    right: -1000px;
+  }
+  h1 {
+    left: 100px;
+  }
+  .Button {
+    left: 500px;
+  }
+}
 
 @media (max-width: 1366px) {
   .ContainerMax {
@@ -457,10 +474,10 @@ h1 {
 
   h1 {
     position: relative;
-    left: 200px;
+    left: 280px;
   }
   .Button {
-    left: 400px;
+    left: 450px;
   }
 
   .Poligono1 {

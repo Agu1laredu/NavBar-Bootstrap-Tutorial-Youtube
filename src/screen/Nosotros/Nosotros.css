@@ -357,7 +357,7 @@
   .HeardTopOne {
     position: relative;
     top: 1%;
-    left: 87%;
+    left: 96%;
     display: flex;
     height: 357.631px;
     z-index: -400;
@@ -365,7 +365,7 @@
   .HeardTopTwo {
     position: absolute;
     top: 20%;
-    left: 87%;
+    left: 96%;
     display: flex;
     height: 357.631px;
     z-index: -400;

@@ -155,9 +155,9 @@
     height: 320px;
   }
   .swiper-slide img {
-    margin-left: 250px;
+    margin-left: 290px;
     margin-top: 10px;
-    width: 200px;
+    width: 230px;
     height: 320px;
   }
   .Swiper-Container {
@@ -171,7 +171,7 @@
 
   .slider-controler {
     left: 42%;
-    bottom: 35rem;
+    bottom: 43rem;
   }
 }
 @media (max-width: 1366px) {
@@ -179,8 +179,8 @@
     margin-left: 350px;
   }
   .swiper-slide img {
-    margin-left: 200px;
-    width: 300px;
+    margin-left: 280px;
+    width: 250px;
     height: 380px;
   }
   .Swiper-Container {
@@ -199,12 +199,12 @@
 }
 @media (max-width: 1280px) {
   .containerSwiper {
-    margin-left: 100px;
+    margin-left: 240px;
   }
   .swiper-slide img {
-    margin-left: 250px;
-    width: 300px;
-    height: 380px;
+    margin-left: 280px;
+    width: 250px;
+    height: 350px;
   }
   .Swiper-Container {
     width: 100%;
@@ -217,7 +217,7 @@
 
   .slider-controler {
     left: 42%;
-    bottom: 35rem;
+    bottom: 42rem;
   }
 }
 @media (max-width: 800px) {
@@ -229,12 +229,17 @@
     position: relative;
     left: -210px;
   }
+  .swiper-slide img {
+    margin-left: 250px;
+    width: 250px;
+    height: 350px;
+  }
   .Swiper-Container {
     width: 90%;
     height: 400px;
   }
   .slider-controler {
-    left: 42%;
+    left: 38%;
     bottom: 1rem;
   }
 }
