@@ -15,6 +15,7 @@ import Poligono10 from "./assets/Poligonos/Polygon10.png";
 import "./App.css";
 import SobreNosotros from "./screen/Nosotros/Nosotros";
 import Clients from "./screen/NuestrosClientes/Clientes";
+import Servicios from "./screen/Servicios/Servicios";
 
 function Home() {
   return (
@@ -45,6 +46,7 @@ function Home() {
       </div>
       <SobreNosotros />
       <Clients />
+      <Servicios />
     </div>
   );
 }

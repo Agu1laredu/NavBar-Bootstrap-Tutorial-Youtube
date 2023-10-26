@@ -1,0 +1,327 @@
+.ContainerServicios {
+  z-index: 3000;
+  position: relative;
+  top: 200px;
+  width: 1800px;
+  height: 1524px;
+  background: #1e293b;
+}
+
+.ButtonServicios {
+  margin-top: 200px;
+  margin-left: 100px;
+  width: 350px;
+  height: 80px;
+  flex-shrink: 0;
+  border-radius: 40px;
+  border: 3px solid #7294c2;
+  background: linear-gradient(266deg, #5b245c 5.02%, #4263b4 142.75%);
+  z-index: 3000;
+}
+
+.servicios {
+  color: #fff;
+  text-align: center;
+  font-family: Kodchasan;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 80px; /* 250% */
+}
+
+.sectionContainerCardServicios {
+  display: flex;
+  margin-top: 200px;
+}
+
+.serviciosCardOne {
+  margin: auto;
+  width: 645px;
+  height: 1674px;
+  flex-shrink: 0;
+  border-radius: 30px;
+  border: 6px solid #7294c2;
+  background: linear-gradient(143deg, #6b609a 1.47%, #5b265f 99.16%);
+  box-shadow: 0px 24px 24px 0px #7294c2;
+}
+.serviciosCardTwo {
+  width: 645px;
+  height: 1674px;
+  flex-shrink: 0;
+  border-radius: 30px;
+  border: 6px solid #7294c2;
+  background: linear-gradient(143deg, #6b609a 1.47%, #5b265f 99.16%);
+  box-shadow: 0px 24px 24px 0px #7294c2;
+}
+.H3Desarrollo {
+  color: #fff;
+  text-align: center;
+  font-family: Kodchasan;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 80px; /* 250% */
+}
+.ContenedorRectangule {
+  height: 15%;
+}
+.Rectangule {
+  width: 619px;
+  height: 56px;
+  flex-shrink: 0;
+  border-radius: 30px;
+  border: 1px solid rgba(114, 148, 194, 0);
+  background: rgba(91, 36, 92, 0.4);
+  box-shadow: 0px 6px 6px 0px #7294c2;
+  text-align: center;
+}
+
+.TituloRectangule {
+  color: #fff;
+  font-family: Kodchasan;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 100;
+}
+
+.parrafoRectangule {
+  margin-top: 50px;
+  width: 603px;
+  height: 1430px;
+  color: #fff;
+  text-align: center;
+  font-family: Kodchasan;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+}
+@media (min-width: 3300px) {
+  .ContainerServicios {
+    position: relative;
+    top: 2500px;
+    width: 3600px;
+  }
+  .serviciosCardOne {
+    margin: auto;
+    width: 1000px;
+    height: 1674px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    border: 6px solid #7294c2;
+    background: linear-gradient(143deg, #6b609a 1.47%, #5b265f 99.16%);
+    box-shadow: 0px 24px 24px 0px #7294c2;
+  }
+  .serviciosCardTwo {
+    margin: auto;
+    width: 1000px;
+    height: 1674px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    border: 6px solid #7294c2;
+    background: linear-gradient(143deg, #6b609a 1.47%, #5b265f 99.16%);
+    box-shadow: 0px 24px 24px 0px #7294c2;
+  }
+  .Rectangule {
+    width: 980px;
+    height: 56px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    border: 1px solid rgba(114, 148, 194, 0);
+    background: rgba(91, 36, 92, 0.4);
+    box-shadow: 0px 6px 6px 0px #7294c2;
+    text-align: center;
+  }
+
+  .TituloRectangule {
+    color: #fff;
+    font-family: Kodchasan;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 100;
+  }
+
+  .parrafoRectangule {
+    margin-top: 50px;
+    width: 1000px;
+    height: 1430px;
+    color: #fff;
+    text-align: center;
+    font-family: Kodchasan;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+  }
+}
+@media (max-width: 1920px) {
+  .ContainerServicios {
+    width: 80%;
+    margin-top: -500px;
+  }
+}
+@media (max-width: 1440px) {
+  .ContainerServicios {
+    width: 80%;
+    margin-top: -500px;
+  }
+  .serviciosCardOne {
+    margin: auto 30px;
+    width: 645px;
+    height: 1674px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    border: 6px solid #7294c2;
+    background: linear-gradient(143deg, #6b609a 1.47%, #5b265f 99.16%);
+    box-shadow: 0px 24px 24px 0px #7294c2;
+  }
+  .serviciosCardTwo {
+    margin: auto 30px;
+    width: 645px;
+    height: 1674px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    border: 6px solid #7294c2;
+    background: linear-gradient(143deg, #6b609a 1.47%, #5b265f 99.16%);
+    box-shadow: 0px 24px 24px 0px #7294c2;
+  }
+}
+@media (max-width: 1366px) {
+  .ContainerServicios {
+    width: 40%;
+    margin-top: -500px;
+  }
+
+  .ButtonServicios {
+    margin-top: 200px;
+    margin-left: 100px;
+    width: 350px;
+    height: 80px;
+    flex-shrink: 0;
+    border-radius: 40px;
+    border: 3px solid #7294c2;
+    background: linear-gradient(266deg, #5b245c 5.02%, #4263b4 142.75%);
+    z-index: 3000;
+  }
+
+  .servicios {
+    color: #fff;
+    text-align: center;
+    font-family: Kodchasan;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 80px; /* 250% */
+  }
+
+  .sectionContainerCardServicios {
+    display: flex;
+    margin-top: 200px;
+  }
+
+  .serviciosCardOne {
+    margin: auto 25px;
+    width: 645px;
+    height: 1674px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    border: 6px solid #7294c2;
+    background: linear-gradient(143deg, #6b609a 1.47%, #5b265f 99.16%);
+    box-shadow: 0px 24px 24px 0px #7294c2;
+  }
+  .serviciosCardTwo {
+    width: 645px;
+    height: 1674px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    border: 6px solid #7294c2;
+    background: linear-gradient(143deg, #6b609a 1.47%, #5b265f 99.16%);
+    box-shadow: 0px 24px 24px 0px #7294c2;
+  }
+  .H3Desarrollo {
+    color: #fff;
+    text-align: center;
+    font-family: Kodchasan;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 80px; /* 250% */
+  }
+  .ContenedorRectangule {
+    height: 15%;
+  }
+  .Rectangule {
+    width: 619px;
+    height: 56px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    border: 1px solid rgba(114, 148, 194, 0);
+    background: rgba(91, 36, 92, 0.4);
+    box-shadow: 0px 6px 6px 0px #7294c2;
+    text-align: center;
+  }
+
+  .TituloRectangule {
+    color: #fff;
+    font-family: Kodchasan;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 100;
+  }
+
+  .parrafoRectangule {
+    margin-top: 50px;
+    width: 603px;
+    height: 1430px;
+    color: #fff;
+    text-align: center;
+    font-family: Kodchasan;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+  }
+}
+
+@media (max-width: 1280px) {
+  .ContainerServicios {
+    width: 40%;
+  }
+  .serviciosCardOne {
+    margin: auto 25px;
+    width: 600px;
+    height: 1674px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    border: 6px solid #7294c2;
+    background: linear-gradient(143deg, #6b609a 1.47%, #5b265f 99.16%);
+    box-shadow: 0px 24px 24px 0px #7294c2;
+  }
+  .serviciosCardTwo {
+    width: 600px;
+    height: 1674px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    border: 6px solid #7294c2;
+    background: linear-gradient(143deg, #6b609a 1.47%, #5b265f 99.16%);
+    box-shadow: 0px 24px 24px 0px #7294c2;
+  }
+  .Rectangule {
+    width: 580px;
+    height: 56px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    border: 1px solid rgba(114, 148, 194, 0);
+    background: rgba(91, 36, 92, 0.4);
+    box-shadow: 0px 6px 6px 0px #7294c2;
+    text-align: center;
+  }
+  .parrafoRectangule {
+    margin-top: 50px;
+    width: 580px;
+    height: 1430px;
+    color: #fff;
+    text-align: center;
+    font-family: Kodchasan;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+  }
+}
