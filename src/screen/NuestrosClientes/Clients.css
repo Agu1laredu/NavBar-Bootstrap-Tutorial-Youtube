@@ -55,6 +55,27 @@
     width: 100%;
   }
 }
+@media (max-width: 580px) {
+  .ContainerClients {
+    z-index: 3000;
+    top: 350px;
+    width: 30%;
+  }
+  .ButtonClients {
+    margin-left: 100px;
+    width: 350px;
+    height: 100px;
+  }
+  .clients {
+    color: #fff;
+    text-align: center;
+    font-family: Kodchasan;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 15px; /* 250% */
+  }
+}
 @media (max-width: 428px) {
   .ContainerClients {
     z-index: 3000;

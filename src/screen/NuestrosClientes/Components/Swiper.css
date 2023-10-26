@@ -243,6 +243,31 @@
     bottom: 1rem;
   }
 }
+
+@media (max-width: 580px) {
+  .containerSwiper {
+    margin-left: 210px;
+  }
+  .swiper_container {
+    height: 70%;
+    position: relative;
+    left: -210px;
+  }
+  .swiper-slide img {
+    margin-left: 60px;
+    width: 250px;
+    height: 350px;
+  }
+  .Swiper-Container {
+    width: 50%;
+    height: 400px;
+  }
+  .slider-controler {
+    left: 38%;
+    bottom: 1rem;
+    display: none;
+  }
+}
 @media (max-width: 428px) {
   .containerSwiper {
     margin-left: 5px;
