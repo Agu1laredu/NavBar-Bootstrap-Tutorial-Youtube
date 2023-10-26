@@ -147,6 +147,9 @@
   }
 }
 @media (max-width: 1920px) {
+  .containerSwiper {
+    margin-left: 550px;
+  }
   .swiper-slide img {
     margin-left: 35%;
     margin-top: 10px;
