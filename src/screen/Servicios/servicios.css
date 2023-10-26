@@ -348,3 +348,224 @@
     font-weight: 400;
   }
 }
+
+@media (max-width: 1024px) {
+  .sectionContainerCardServicios {
+    display: grid;
+  }
+  .serviciosCardOne {
+    width: 800px;
+    height: 1674px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    border: 6px solid #7294c2;
+    background: linear-gradient(143deg, #6b609a 1.47%, #5b265f 99.16%);
+    box-shadow: 0px 24px 24px 0px #7294c2;
+  }
+  .serviciosCardTwo {
+    margin: 100px auto;
+    width: 800px;
+    height: 1674px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    border: 6px solid #7294c2;
+    background: linear-gradient(143deg, #6b609a 1.47%, #5b265f 99.16%);
+    box-shadow: 0px 24px 24px 0px #7294c2;
+  }
+  .Rectangule {
+    width: 780px;
+    height: 56px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    border: 1px solid rgba(114, 148, 194, 0);
+    background: rgba(91, 36, 92, 0.4);
+    box-shadow: 0px 6px 6px 0px #7294c2;
+    text-align: center;
+  }
+  .parrafoRectangule {
+    margin-top: 50px;
+    width: 800px;
+    height: 1430px;
+    color: #fff;
+    text-align: center;
+    font-family: Kodchasan;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+  }
+}
+@media (max-width: 768px) {
+  .sectionContainerCardServicios {
+    display: grid;
+  }
+  .serviciosCardOne {
+    width: 600px;
+    height: 1674px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    border: 6px solid #7294c2;
+    background: linear-gradient(143deg, #6b609a 1.47%, #5b265f 99.16%);
+    box-shadow: 0px 24px 24px 0px #7294c2;
+  }
+  .serviciosCardTwo {
+    margin: 100px auto;
+    width: 600px;
+    height: 1674px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    border: 6px solid #7294c2;
+    background: linear-gradient(143deg, #6b609a 1.47%, #5b265f 99.16%);
+    box-shadow: 0px 24px 24px 0px #7294c2;
+  }
+}
+@media (max-width: 540px) {
+  .sectionContainerCardServicios {
+    width: 400px;
+    margin-left: -5px;
+  }
+  .ButtonServicios {
+    margin-left: 50px;
+  }
+  .serviciosCardOne {
+    width: 500px;
+    height: 1674px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    border: 6px solid #7294c2;
+    background: linear-gradient(143deg, #6b609a 1.47%, #5b265f 99.16%);
+    box-shadow: 0px 24px 24px 0px #7294c2;
+  }
+  .serviciosCardTwo {
+    margin: 100px auto;
+    width: 500px;
+    height: 1674px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    border: 6px solid #7294c2;
+    background: linear-gradient(143deg, #6b609a 1.47%, #5b265f 99.16%);
+    box-shadow: 0px 24px 24px 0px #7294c2;
+  }
+  .Rectangule {
+    width: 480px;
+    height: 56px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    border: 1px solid rgba(114, 148, 194, 0);
+    background: rgba(91, 36, 92, 0.4);
+    box-shadow: 0px 6px 6px 0px #7294c2;
+    text-align: center;
+  }
+  .parrafoRectangule {
+    margin-top: 50px;
+    width: 480px;
+    height: 1430px;
+    color: #fff;
+    text-align: center;
+    font-family: Kodchasan;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+  }
+}
+
+@media (max-width: 428px) {
+  .sectionContainerCardServicios {
+    width: 400px;
+    margin-left: -5px;
+  }
+  .ButtonServicios {
+    margin-left: 50px;
+  }
+  .serviciosCardOne {
+    width: 400px;
+    height: 1674px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    border: 6px solid #7294c2;
+    background: linear-gradient(143deg, #6b609a 1.47%, #5b265f 99.16%);
+    box-shadow: 0px 24px 24px 0px #7294c2;
+  }
+  .serviciosCardTwo {
+    margin: 100px auto;
+    width: 400px;
+    height: 1674px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    border: 6px solid #7294c2;
+    background: linear-gradient(143deg, #6b609a 1.47%, #5b265f 99.16%);
+    box-shadow: 0px 24px 24px 0px #7294c2;
+  }
+  .Rectangule {
+    width: 380px;
+    height: 56px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    border: 1px solid rgba(114, 148, 194, 0);
+    background: rgba(91, 36, 92, 0.4);
+    box-shadow: 0px 6px 6px 0px #7294c2;
+    text-align: center;
+  }
+  .parrafoRectangule {
+    margin-top: 50px;
+    width: 380px;
+    height: 1430px;
+    color: #fff;
+    text-align: center;
+    font-family: Kodchasan;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+  }
+}
+@media (max-width: 390px) {
+  .ContainerServicios {
+    margin-top: -700px;
+  }
+  .sectionContainerCardServicios {
+    width: 400px;
+    margin-left: -20px;
+  }
+  .ButtonServicios {
+    margin-left: 15px;
+  }
+  .serviciosCardOne {
+    width: 380px;
+    height: 1674px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    border: 6px solid #7294c2;
+    background: linear-gradient(143deg, #6b609a 1.47%, #5b265f 99.16%);
+    box-shadow: 0px 24px 24px 0px #7294c2;
+  }
+  .serviciosCardTwo {
+    margin: 100px auto;
+    width: 380px;
+    height: 1674px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    border: 6px solid #7294c2;
+    background: linear-gradient(143deg, #6b609a 1.47%, #5b265f 99.16%);
+    box-shadow: 0px 24px 24px 0px #7294c2;
+  }
+  .Rectangule {
+    width: 360px;
+    height: 56px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    border: 1px solid rgba(114, 148, 194, 0);
+    background: rgba(91, 36, 92, 0.4);
+    box-shadow: 0px 6px 6px 0px #7294c2;
+    text-align: center;
+  }
+  .parrafoRectangule {
+    margin-top: 50px;
+    width: 360px;
+    height: 1430px;
+    color: #fff;
+    text-align: center;
+    font-family: Kodchasan;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+  }
+}
