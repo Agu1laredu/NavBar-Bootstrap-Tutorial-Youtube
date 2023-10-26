@@ -156,8 +156,12 @@
   .ContainerServicios {
     margin-top: -500px;
   }
+
+  .sectionContainerCardServicios {
+    margin-left: 110px;
+  }
   .serviciosCardOne {
-    margin: auto;
+    margin: auto 100px;
     width: 645px;
     height: 1674px;
     flex-shrink: 0;
@@ -167,7 +171,7 @@
     box-shadow: 0px 24px 24px 0px #7294c2;
   }
   .serviciosCardTwo {
-    margin: auto;
+    margin: auto 100px;
     width: 645px;
     height: 1674px;
     flex-shrink: 0;
