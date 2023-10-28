@@ -1,7 +1,7 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./servicios.css";
 
-function Nosotros() {
+function Servicios() {
   return (
     <div className="ContainerServicios">
       <button className="ButtonServicios">
@@ -114,4 +114,4 @@ function Nosotros() {
   );
 }
 
-export default Nosotros;
+export default Servicios;

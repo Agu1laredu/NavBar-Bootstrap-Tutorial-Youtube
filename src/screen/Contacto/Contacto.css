@@ -1,87 +1,220 @@
-.contacto {
-  background-color: #1e2326;
-  color: #fff;
-  border: 2px solid rgba(68, 68, 68, 0.359);
-  margin-bottom: -20px;
+.ContainerContacto {
+  z-index: 3000;
+  position: relative;
+  top: 1000px;
+  width: 1800px;
+  height: 1624px;
+  background: #1e293b;
 }
-.contacto .contenido-seccion {
-  max-width: 1100px;
-  margin: auto;
-  height: 100%;
-}
-.contacto h2 {
-  font-size: 48px;
-  font-family: "Lobster", cursive;
-  text-align: center;
-  padding: 20px 0;
-}
-.contacto .fila {
+.fila {
   display: flex;
+  margin: auto;
+  margin-top: 80px;
+  margin-left: 300px;
+  width: 1313px;
+  height: 550px;
+  flex-shrink: 0;
+  border-radius: 30px;
+  border: 6px solid #7294c2;
+  background: linear-gradient(218deg, #6b609a -4.18%, #5d2b64 98.82%);
+  box-shadow: 0px 24px 24px 0px #60669a;
 }
-.contacto .col {
+.col {
   width: 100%;
   padding: 10px;
   position: relative;
 }
-.contacto .col input,
-.contacto .col textarea {
-  font-family: "Lobster", cursive;
-  display: block;
-  width: 100%;
-  padding: 18px;
-  border: none;
-  margin-bottom: 20px;
-  background-color: #252a2e;
-  color: #fff;
-  font-size: 18px;
+.col input,
+.col textarea {
+  width: 1264px;
+  height: 74px;
+  flex-shrink: 0;
+  border-radius: 30px;
+  border: 1px solid rgba(114, 148, 194, 0);
+  background: rgba(91, 36, 92, 0.4);
+  box-shadow: 0px 6px 6px 0px #7294c2;
 }
-.contacto button {
-  cursor: pointer;
-  font-family: "Lobster", cursive;
-  background-color: transparent;
-  border: 2px solid #fff;
-  width: fit-content;
-  display: block;
-  margin: 20px auto;
-  padding: 10px 22px;
-  font-size: 16px;
+.SpanContacto {
+  position: absolute;
+  left: 50px;
+  width: 603px;
+  height: 652px;
   color: #fff;
+  font-family: Kodchasan;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 80px; /* 333.333% */
+}
+.SpanContactoTelefono {
+  position: absolute;
+  top: 80px;
+  left: 50px;
+  width: 603px;
+  height: 652px;
+  color: #fff;
+  font-family: Kodchasan;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 80px; /* 333.333% */
+}
+.SpanContactoEmail {
+  position: absolute;
+  top: 160px;
+  left: 50px;
+  width: 603px;
+  height: 652px;
+  color: #fff;
+  font-family: Kodchasan;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 80px; /* 333.333% */
+}
+.SpanContactoTema {
+  position: absolute;
+  top: 230px;
+  left: 50px;
+  width: 603px;
+  height: 652px;
+  color: #fff;
+  font-family: Kodchasan;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 80px; /* 333.333% */
+}
+.SpanContactoMensaje {
+  position: absolute;
+  top: 300px;
+  left: 50px;
+  width: 603px;
+  height: 652px;
+  color: #fff;
+  font-family: Kodchasan;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 80px; /* 333.333% */
+}
+.ButtonMensaje {
   position: relative;
-  z-index: 10;
+  top: 30px;
+  left: 440px;
+  width: 350px;
+  height: 80px;
+  flex-shrink: 0;
+  border-radius: 40px;
+  border: 3px solid #7294c2;
+  background: linear-gradient(266deg, #5b245c 5.02%, #4263b4 142.75%);
+  box-shadow: 7px 7px 7px 7px #7294c2;
 }
-.contacto button .overlay {
-  font-family: "Lobster", cursive;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 0;
-  height: 100%;
-  background-color: #7c7c7c;
-  z-index: -1;
-  transition: 1s;
+.EnviarMensaje {
+  width: 603px;
+  height: 652px;
+  color: #fff;
+  font-family: Kodchasan;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 80px; /* 333.333% */
 }
-.contacto button:hover .overlay {
-  width: 100%;
+
+.TwitchChartOne {
+  position: relative;
+  left: 600px;
+  top: 18px;
+  width: 232.5px;
+  height: 229.78px;
+  flex-shrink: 0;
 }
-.contacto .col img {
-  width: 100%;
+.TwitchChartTwo {
+  position: relative;
+  left: 350px;
+  top: 18px;
+  width: 232.5px;
+  height: 229.78px;
+  flex-shrink: 0;
 }
-.contacto .col .info {
-  position: absolute;
-  top: 40%;
-  background-color: #252a2e;
-  padding: 20px;
-  left: 50%;
-  transform: translate(-50%, -50%);
+.SVGFlechaOne {
+  position: relative;
+  left: 20px;
+  top: 18px;
+  width: 300.564px;
+  height: 241.07px;
+  z-index: 300;
 }
-.contacto .col .info ul {
-  list-style: none;
+.SVGFlechaTwo {
+  position: relative;
+  left: -300px;
+  top: 20px;
+  width: 300.564px;
+  height: 241.07px;
+  z-index: 300;
 }
-.contacto .col .info ul li {
-  margin-bottom: 20px;
-}
-.contacto .col .info ul li i {
-  font-family: "Lobster", cursive;
-  display: inline-block;
-  margin-right: 20px;
+
+@media (max-width: 1366px) {
+  .ContainerContacto {
+    width: 40%;
+  }
+  .fila {
+    display: flex;
+    margin: auto;
+    margin-top: 50px;
+    margin-left: 180px;
+    width: 1013px;
+    height: 550px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    border: 6px solid #7294c2;
+    background: linear-gradient(218deg, #6b609a -4.18%, #5d2b64 98.82%);
+    box-shadow: 0px 24px 24px 0px #60669a;
+  }
+  .col input,
+  .col textarea {
+    width: 980px;
+    height: 74px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    border: 1px solid rgba(114, 148, 194, 0);
+    background: rgba(91, 36, 92, 0.4);
+    box-shadow: 0px 6px 6px 0px #7294c2;
+  }
+  .ButtonMensaje {
+    left: 320px;
+  }
+
+  .TwitchChartOne {
+    position: relative;
+    left: 965px;
+    top: 18px;
+    width: 232.5px;
+    height: 229.78px;
+    flex-shrink: 0;
+  }
+  .TwitchChartTwo {
+    position: relative;
+    left: 750px;
+    top: 18px;
+    width: 232.5px;
+    height: 229.78px;
+    flex-shrink: 0;
+  }
+  .SVGFlechaOne {
+    position: relative;
+    left: 20px;
+    top: 18px;
+    width: 300.564px;
+    height: 241.07px;
+    z-index: 300;
+  }
+  .SVGFlechaTwo {
+    position: relative;
+    left: 20px;
+    top: -215px;
+    width: 300.564px;
+    height: 241.07px;
+    z-index: 300;
+  }
 }

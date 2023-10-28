@@ -16,6 +16,7 @@ import "./App.css";
 import SobreNosotros from "./screen/Nosotros/Nosotros";
 import Clients from "./screen/NuestrosClientes/Clientes";
 import Servicios from "./screen/Servicios/Servicios";
+import Contacto from "./screen/Contacto/Contacto";
 
 function Home() {
   return (
@@ -47,6 +48,7 @@ function Home() {
       <SobreNosotros />
       <Clients />
       <Servicios />
+      <Contacto />
     </div>
   );
 }

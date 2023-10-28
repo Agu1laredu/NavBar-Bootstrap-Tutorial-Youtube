@@ -191,16 +191,17 @@
 }
 @media (max-width: 1366px) {
   .containerSwiper {
-    margin-left: 350px;
+    margin-left: 300px;
   }
   .swiper-slide img {
-    margin-left: 280px;
+    margin-left: 160px;
     width: 250px;
     height: 380px;
   }
   .Swiper-Container {
-    width: 100%;
-    height: 400px;
+    width: 70%;
+    height: 425px;
+    margin: auto;
   }
   .swiper_container {
     height: 82rem;
@@ -209,7 +210,7 @@
 
   .slider-controler {
     left: 42%;
-    bottom: 35rem;
+    bottom: 40rem;
   }
 }
 @media (max-width: 1280px) {
