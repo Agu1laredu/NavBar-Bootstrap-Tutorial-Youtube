@@ -396,6 +396,7 @@
   }
   .ButtonNosotros {
     margin-left: 180px;
+    margin-top: 200px;
   }
   .seccionParrafo {
     z-index: 3000;
@@ -462,7 +463,7 @@
   .ContainerNosotros {
     position: relative;
     top: 700px;
-    width: 42%;
+    width: 30%;
   }
   .ButtonNosotros {
     margin-left: 15px;
@@ -476,6 +477,22 @@
     font-size: 25px;
     line-height: 50px;
     text-align: justify;
+  }
+  .HeardTopOne {
+    position: relative;
+    top: 1%;
+    left: 90px;
+    display: flex;
+    height: 357.631px;
+    z-index: -400;
+  }
+  .HeardTopTwo {
+    position: absolute;
+    top: 20%;
+    left: 90px;
+    display: flex;
+    height: 357.631px;
+    z-index: -400;
   }
 }
 
