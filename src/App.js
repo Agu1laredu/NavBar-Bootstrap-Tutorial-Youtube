@@ -32,7 +32,9 @@ function Home() {
         <section>
           <h1>Desarrollo Web personalizado y a tu medida</h1>
           <button className="Button">
-            <span className="Span">Presupuesto</span>
+            <a href="#ButtonContacto" style={{ textDecoration: "none" }}>
+              <span className="Span">Presupuesto</span>
+            </a>
           </button>
         </section>
         <img src={Poligono10} alt="Logotipo" className="Poligono11" />

@@ -6,6 +6,27 @@
   height: 1624px;
   background: #1e293b;
 }
+.ButtonContacto {
+  margin-top: 200px;
+  margin-left: 100px;
+  width: 650px;
+  height: 80px;
+  flex-shrink: 0;
+  border-radius: 40px;
+  border: 3px solid #7294c2;
+  background: linear-gradient(266deg, #5b245c 5.02%, #4263b4 142.75%);
+  z-index: 3000;
+}
+
+.contacto {
+  color: #fff;
+  text-align: center;
+  font-family: Kodchasan;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 80px; /* 250% */
+}
 .fila {
   display: flex;
   margin: auto;
@@ -33,70 +54,14 @@
   border: 1px solid rgba(114, 148, 194, 0);
   background: rgba(91, 36, 92, 0.4);
   box-shadow: 0px 6px 6px 0px #7294c2;
-}
-.SpanContacto {
-  position: absolute;
-  left: 50px;
-  width: 603px;
-  height: 652px;
   color: #fff;
   font-family: Kodchasan;
   font-size: 24px;
   font-style: normal;
   font-weight: 400;
-  line-height: 80px; /* 333.333% */
 }
-.SpanContactoTelefono {
-  position: absolute;
-  top: 80px;
-  left: 50px;
-  width: 603px;
-  height: 652px;
-  color: #fff;
-  font-family: Kodchasan;
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 80px; /* 333.333% */
-}
-.SpanContactoEmail {
-  position: absolute;
-  top: 160px;
-  left: 50px;
-  width: 603px;
-  height: 652px;
-  color: #fff;
-  font-family: Kodchasan;
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 80px; /* 333.333% */
-}
-.SpanContactoTema {
-  position: absolute;
-  top: 230px;
-  left: 50px;
-  width: 603px;
-  height: 652px;
-  color: #fff;
-  font-family: Kodchasan;
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 80px; /* 333.333% */
-}
-.SpanContactoMensaje {
-  position: absolute;
-  top: 300px;
-  left: 50px;
-  width: 603px;
-  height: 652px;
-  color: #fff;
-  font-family: Kodchasan;
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 80px; /* 333.333% */
+#mensaje {
+  height: 100px;
 }
 .ButtonMensaje {
   position: relative;
@@ -153,6 +118,70 @@
   height: 241.07px;
   z-index: 300;
 }
+@media (max-width: 1440px) {
+  .ContainerContacto {
+    width: 40%;
+  }
+  .fila {
+    display: flex;
+    margin: auto;
+    margin-top: 50px;
+    margin-left: 180px;
+    width: 1013px;
+    height: 550px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    border: 6px solid #7294c2;
+    background: linear-gradient(218deg, #6b609a -4.18%, #5d2b64 98.82%);
+    box-shadow: 0px 24px 24px 0px #60669a;
+  }
+  .col input,
+  .col textarea {
+    width: 980px;
+    height: 74px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    border: 1px solid rgba(114, 148, 194, 0);
+    background: rgba(91, 36, 92, 0.4);
+    box-shadow: 0px 6px 6px 0px #7294c2;
+  }
+  .ButtonMensaje {
+    left: 320px;
+  }
+
+  .TwitchChartOne {
+    position: relative;
+    left: 965px;
+    top: 18px;
+    width: 232.5px;
+    height: 229.78px;
+    flex-shrink: 0;
+  }
+  .TwitchChartTwo {
+    position: relative;
+    left: 750px;
+    top: 18px;
+    width: 232.5px;
+    height: 229.78px;
+    flex-shrink: 0;
+  }
+  .SVGFlechaOne {
+    position: relative;
+    left: 20px;
+    top: 18px;
+    width: 300.564px;
+    height: 241.07px;
+    z-index: 300;
+  }
+  .SVGFlechaTwo {
+    position: relative;
+    left: 30px;
+    top: -210px;
+    width: 300.564px;
+    height: 241.07px;
+    z-index: 300;
+  }
+}
 
 @media (max-width: 1366px) {
   .ContainerContacto {
@@ -205,6 +234,211 @@
     position: relative;
     left: 20px;
     top: 18px;
+    width: 300.564px;
+    height: 241.07px;
+    z-index: 300;
+  }
+  .SVGFlechaTwo {
+    position: relative;
+    left: 20px;
+    top: -215px;
+    width: 300.564px;
+    height: 241.07px;
+    z-index: 300;
+  }
+}
+
+@media (max-width: 1024px) {
+  .ContainerContacto {
+    width: 40%;
+    margin-top: 1590px;
+  }
+  .fila {
+    display: flex;
+    margin: auto;
+    margin-top: -150px;
+    margin-left: 120px;
+    width: 813px;
+    height: 550px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    border: 6px solid #7294c2;
+    background: linear-gradient(218deg, #6b609a -4.18%, #5d2b64 98.82%);
+    box-shadow: 0px 24px 24px 0px #60669a;
+  }
+  .col input,
+  .col textarea {
+    width: 780px;
+    height: 74px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    border: 1px solid rgba(114, 148, 194, 0);
+    background: rgba(91, 36, 92, 0.4);
+    box-shadow: 0px 6px 6px 0px #7294c2;
+  }
+  .ButtonMensaje {
+    left: 200px;
+  }
+
+  .TwitchChartOne {
+    position: relative;
+    left: 765px;
+    top: 50px;
+    width: 232.5px;
+    height: 229.78px;
+    flex-shrink: 0;
+  }
+  .TwitchChartTwo {
+    position: relative;
+    left: 750px;
+    top: -170px;
+    width: 232.5px;
+    height: 229.78px;
+    flex-shrink: 0;
+  }
+  .SVGFlechaOne {
+    position: relative;
+    left: 20px;
+    top: 18;
+    width: 300.564px;
+    height: 241.07px;
+    z-index: 300;
+  }
+  .SVGFlechaTwo {
+    position: relative;
+    left: 20px;
+    top: -215px;
+    width: 300.564px;
+    height: 241.07px;
+    z-index: 300;
+  }
+}
+
+@media (max-width: 768px) {
+  .ContainerContacto {
+    width: 40%;
+    margin-top: 1590px;
+  }
+  .ButtonContacto {
+    margin-left: 60px;
+  }
+  .fila {
+    display: flex;
+    margin: auto;
+    margin-top: -150px;
+    margin-left: 120px;
+    width: 550px;
+    height: 550px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    border: 6px solid #7294c2;
+    background: linear-gradient(218deg, #6b609a -4.18%, #5d2b64 98.82%);
+    box-shadow: 0px 24px 24px 0px #60669a;
+  }
+  .col input,
+  .col textarea {
+    width: 520px;
+    height: 74px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    border: 1px solid rgba(114, 148, 194, 0);
+    background: rgba(91, 36, 92, 0.4);
+    box-shadow: 0px 6px 6px 0px #7294c2;
+  }
+  .ButtonMensaje {
+    left: 100px;
+  }
+
+  .TwitchChartOne {
+    position: relative;
+    left: 465px;
+    top: 50px;
+    width: 232.5px;
+    height: 229.78px;
+    flex-shrink: 0;
+  }
+  .TwitchChartTwo {
+    position: relative;
+    left: 465px;
+    top: -168px;
+    width: 232.5px;
+    height: 229.78px;
+    flex-shrink: 0;
+  }
+  .SVGFlechaOne {
+    position: relative;
+    left: 20px;
+    top: 18;
+    width: 300.564px;
+    height: 241.07px;
+    z-index: 300;
+  }
+  .SVGFlechaTwo {
+    position: relative;
+    left: 20px;
+    top: -215px;
+    width: 300.564px;
+    height: 241.07px;
+    z-index: 300;
+  }
+}
+
+@media (max-width: 540px) {
+  .ContainerContacto {
+    width: 40%;
+    margin-top: 1590px;
+  }
+  .ButtonContacto {
+    margin-left: 20px;
+    width: 500px;
+  }
+  .fila {
+    display: flex;
+    margin: auto;
+    margin-top: -150px;
+    margin-left: 20px;
+    width: 500px;
+    height: 550px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    border: 6px solid #7294c2;
+    background: linear-gradient(218deg, #6b609a -4.18%, #5d2b64 98.82%);
+    box-shadow: 0px 24px 24px 0px #60669a;
+  }
+  .col input,
+  .col textarea {
+    width: 470px;
+    height: 74px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    border: 1px solid rgba(114, 148, 194, 0);
+    background: rgba(91, 36, 92, 0.4);
+    box-shadow: 0px 6px 6px 0px #7294c2;
+  }
+  .ButtonMensaje {
+    left: 50px;
+  }
+
+  .TwitchChartOne {
+    position: relative;
+    left: 265px;
+    top: 50px;
+    width: 232.5px;
+    height: 229.78px;
+    flex-shrink: 0;
+  }
+  .TwitchChartTwo {
+    position: relative;
+    left: 265px;
+    top: -168px;
+    width: 232.5px;
+    height: 229.78px;
+    flex-shrink: 0;
+  }
+  .SVGFlechaOne {
+    position: relative;
+    left: 20px;
+    top: 18;
     width: 300.564px;
     height: 241.07px;
     z-index: 300;

@@ -186,8 +186,12 @@
     width: 80%;
     margin-top: -500px;
   }
+  .sectionContainerCardServicios {
+    width: 90%;
+    margin: 100px auto;
+  }
   .serviciosCardOne {
-    margin: auto 30px;
+    margin: auto 5px;
     width: 645px;
     height: 1674px;
     flex-shrink: 0;
@@ -197,7 +201,7 @@
     box-shadow: 0px 24px 24px 0px #7294c2;
   }
   .serviciosCardTwo {
-    margin: auto 30px;
+    margin: auto 5px;
     width: 645px;
     height: 1674px;
     flex-shrink: 0;
@@ -307,6 +311,10 @@
   .ContainerServicios {
     width: 40%;
   }
+  .sectionContainerCardServicios {
+    width: 100%;
+    margin: 100px auto;
+  }
   .serviciosCardOne {
     margin: auto 25px;
     width: 600px;
@@ -352,6 +360,7 @@
 @media (max-width: 1024px) {
   .sectionContainerCardServicios {
     display: grid;
+    margin-left: 100px;
   }
   .serviciosCardOne {
     width: 800px;
@@ -398,8 +407,12 @@
   .sectionContainerCardServicios {
     display: grid;
   }
+  .ButtonServicios {
+    margin-left: 200px;
+  }
+
   .serviciosCardOne {
-    width: 600px;
+    width: 550px;
     height: 1674px;
     flex-shrink: 0;
     border-radius: 30px;
@@ -409,7 +422,7 @@
   }
   .serviciosCardTwo {
     margin: 100px auto;
-    width: 600px;
+    width: 550px;
     height: 1674px;
     flex-shrink: 0;
     border-radius: 30px;
@@ -417,8 +430,32 @@
     background: linear-gradient(143deg, #6b609a 1.47%, #5b265f 99.16%);
     box-shadow: 0px 24px 24px 0px #7294c2;
   }
+  .Rectangule {
+    width: 530px;
+    height: 56px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    border: 1px solid rgba(114, 148, 194, 0);
+    background: rgba(91, 36, 92, 0.4);
+    box-shadow: 0px 6px 6px 0px #7294c2;
+    text-align: center;
+  }
+  .parrafoRectangule {
+    margin-top: 50px;
+    width: 520px;
+    height: 1430px;
+    color: #fff;
+    text-align: center;
+    font-family: Kodchasan;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+  }
 }
 @media (max-width: 540px) {
+  .ContainerServicios {
+    margin-top: -250px;
+  }
   .sectionContainerCardServicios {
     width: 400px;
     margin-left: -5px;

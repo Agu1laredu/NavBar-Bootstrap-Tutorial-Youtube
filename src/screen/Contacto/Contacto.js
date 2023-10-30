@@ -3,8 +3,8 @@ import "./Contacto.css";
 function Contacto() {
   return (
     <div className="ContainerContacto">
-      <button className="ButtonClients">
-        <span className="clients">Contacto</span>
+      <button className="ButtonContacto" id="ButtonContacto">
+        <span className="contacto">Contacto</span>
       </button>
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -39,16 +39,22 @@ function Contacto() {
             method="post"
             enctype="text/plain"
           >
-            <span className="SpanContacto">Tu nombre</span>
-            <input type="text" id="nombre" required />
-            <span className="SpanContactoTelefono">Tu Telefono</span>
-            <input type="tel" id="telefono" required />
-            <span className="SpanContactoEmail">Dirección de correo</span>
-            <input type="email" id="correo" required />
-            <span className="SpanContactoTema">Tema</span>
-            <input type="text" id="tema" required />
-            <span className="SpanContactoMensaje">Mensaje</span>
-            <textarea id="mensaje" cols="30" rows="10" required></textarea>
+            <input type="text" id="nombre" placeholder="Tu Nombre" required />
+            <input
+              type="tel"
+              id="telefono"
+              placeholder="Tu Telefono"
+              required
+            />
+            <input type="email" id="correo" placeholder="Tu correo" required />
+            <input type="text" id="tema" placeholder="Tema" required />
+            <textarea
+              id="mensaje"
+              cols="30"
+              rows="10"
+              placeholder="Mensaje"
+              required
+            ></textarea>
             <button type="submit" className="ButtonMensaje">
               <span className="EnviarMensaje"> Enviar Mensaje</span>
               <span class="overlay"></span>

@@ -357,7 +357,7 @@
   .HeardTopOne {
     position: relative;
     top: 1%;
-    left: 96%;
+    left: 81.5%;
     display: flex;
     height: 357.631px;
     z-index: -400;
@@ -365,7 +365,7 @@
   .HeardTopTwo {
     position: absolute;
     top: 20%;
-    left: 96%;
+    left: 81.5%;
     display: flex;
     height: 357.631px;
     z-index: -400;
@@ -389,10 +389,13 @@
     display: none;
   }
 }
-@media (max-width: 800px) {
+@media (max-width: 768px) {
   .ContainerNosotros {
     width: 108%;
     overflow: hidden;
+  }
+  .ButtonNosotros {
+    margin-left: 180px;
   }
   .seccionParrafo {
     z-index: 3000;
@@ -412,7 +415,7 @@
   .HeardTopOne {
     position: relative;
     top: 1%;
-    left: 58%;
+    left: 39%;
     display: flex;
     height: 357.631px;
     z-index: -400;
@@ -420,7 +423,7 @@
   .HeardTopTwo {
     position: absolute;
     top: 20%;
-    left: 58%;
+    left: 39%;
     display: flex;
     height: 357.631px;
     z-index: -400;

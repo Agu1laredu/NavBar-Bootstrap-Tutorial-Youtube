@@ -559,7 +559,7 @@ h1 {
   }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 768px) {
   .ContainerMax {
     width: 60%;
   }
@@ -575,11 +575,11 @@ h1 {
 
   h1 {
     position: relative;
-    left: 50px;
+    left: 10px;
   }
   .Button {
     position: relative;
-    left: 250px;
+    left: 200px;
     top: 50px;
   }
 }
