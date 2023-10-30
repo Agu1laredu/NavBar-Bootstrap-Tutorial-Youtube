@@ -466,7 +466,8 @@
     width: 30%;
   }
   .ButtonNosotros {
-    margin-left: 15px;
+    position: relative;
+    top: -100px;
   }
   .Parrafo {
     margin-top: -330px;

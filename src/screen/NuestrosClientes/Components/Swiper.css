@@ -300,6 +300,8 @@
 }
 @media (max-width: 428px) {
   .containerSwiper {
+    position: relative;
+    top: -100px;
     margin-left: 5px;
     height: 550px;
     width: 1500px;
