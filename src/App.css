@@ -850,3 +850,30 @@ h1 {
     height: 900px;
   }
 }
+
+@media (max-width: 375px) {
+  .ContainerMax {
+    width: 40%;
+  }
+  .App {
+    width: 30%;
+    height: 50px;
+  }
+  .Logo {
+    position: relative;
+    right: -15px;
+    height: 350px;
+  }
+
+  h1 {
+    position: relative;
+    font-size: 25px;
+    width: 405px;
+    top: -100px;
+    left: -10px;
+  }
+  .Button {
+    top: -180px;
+    left: 20px;
+  }
+}

@@ -554,3 +554,30 @@
     display: none;
   }
 }
+
+@media (max-width: 375px) {
+  .ContainerNosotros {
+    position: relative;
+    top: 700px;
+    width: 30%;
+  }
+  .ButtonNosotros {
+    margin-top: 200px;
+    margin-left: 60px;
+    width: 250px;
+    height: 80px;
+  }
+  .SobreNosotros {
+    font-size: 25px;
+  }
+  .Parrafo {
+    margin-top: -30px;
+    margin-left: 10px;
+    width: 350px;
+    color: #fff;
+    font-family: Kodchasan;
+    font-size: 20px;
+    line-height: 50px;
+    text-align: justify;
+  }
+}
