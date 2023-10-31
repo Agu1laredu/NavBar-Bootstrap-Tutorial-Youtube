@@ -17,6 +17,7 @@ import SobreNosotros from "./screen/Nosotros/Nosotros";
 import Clients from "./screen/NuestrosClientes/Clientes";
 import Servicios from "./screen/Servicios/Servicios";
 import Contacto from "./screen/Contacto/Contacto";
+import Footer from "./components/Footer/Footer";
 
 function Home() {
   return (
@@ -25,7 +26,7 @@ function Home() {
         <Container className="Container">
           <Navbar.Brand>
             <Link to={`/`}>
-              <img src={Logo} alt="Logotipo" className="Logo" />
+              <img src={Logo} alt="Logotipo" className="Logo" id="MenuInicio" />
             </Link>
           </Navbar.Brand>
         </Container>
@@ -33,7 +34,9 @@ function Home() {
           <h1>Desarrollo Web personalizado y a tu medida</h1>
           <button className="Button">
             <a href="#ButtonContacto" style={{ textDecoration: "none" }}>
-              <span className="Span">Presupuesto</span>
+              <span className="Span" id="MenuInicio">
+                Presupuesto
+              </span>
             </a>
           </button>
         </section>
@@ -51,6 +54,7 @@ function Home() {
       <Clients />
       <Servicios />
       <Contacto />
+      <Footer />
     </div>
   );
 }

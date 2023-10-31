@@ -1,13 +1,24 @@
+.FlechaUno {
+  position: relative;
+  left: -790px;
+  top: 350px;
+}
+.FlechaDos {
+  position: relative;
+  left: -780px;
+  top: 120px;
+}
+
 footer {
+  margin-top: 800px;
   height: fit-content;
-  margin-top: 20px;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   color: white;
-  background-color: #121212;
+  background: #1e293b;
 }
 
 .copyright-container {
@@ -17,9 +28,29 @@ footer {
   align-items: center;
   border-top: 1px solid rgba(255, 255, 255, 0.3);
 }
-
+.contenedorP {
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+  width: 1274px;
+  height: 74px;
+  flex-shrink: 0;
+  border-radius: 30px;
+  border: 1px solid rgba(114, 148, 194, 0);
+  background: rgba(91, 36, 92, 0.4);
+  box-shadow: 0px 6px 6px 0px #7294c2;
+}
 p {
+  width: 603px;
+  height: 652px;
+  flex-shrink: 0;
   cursor: pointer;
+  color: #fff;
+  font-family: Kodchasan;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 80px; /* 333.333% */
 }
 
 .copyright {
@@ -38,7 +69,8 @@ p {
 
 .footer-container {
   height: fit-content;
-  width: 100%;
+  width: 1274px;
+  margin: auto;
   padding: 3rem 6rem;
   box-sizing: border-box;
   display: flex;
@@ -47,15 +79,13 @@ p {
 }
 
 .footer-content-container {
-  display: flex;
+  height: 300px;
+  text-align: justify;
+  margin-top: 100px;
+  display: grid;
   justify-content: flex-start;
   align-items: flex-start;
   flex-direction: column;
-}
-
-footer .website-logo {
-  margin-bottom: 1.2rem;
-  font-size: calc(1vw + 20px);
 }
 
 .footer-info,
@@ -70,12 +100,36 @@ footer .website-logo {
 .menu-item-footer:hover {
   opacity: 1;
 }
-
+.ContenedorFooterFinis {
+  display: grid;
+}
+.footer-content-containerDos {
+  display: flex;
+  margin-left: 50%;
+  margin-top: 10px;
+  justify-content: space-around;
+  width: 50%;
+}
+.ButtonSiguenos {
+  position: relative;
+  left: 200px;
+  width: 300px;
+  height: 80px;
+  text-align: center;
+  flex-shrink: 0;
+  border-radius: 40px;
+  border: 3px solid #7294c2;
+  background: linear-gradient(266deg, #5b245c 5.02%, #4263b4 142.75%);
+}
 .menu-title {
-  font-size: var(--medium-text-font);
+  font-size: 32px;
   font-weight: 400;
   text-transform: uppercase;
-  margin-bottom: 1.2rem;
+  color: #fff;
+  text-align: center;
+  font-family: Kodchasan;
+  font-style: normal;
+  line-height: 80px; /* 250% */
 }
 
 .social-container {
@@ -87,8 +141,9 @@ footer .website-logo {
 }
 
 .social-link {
-  height: 100%;
-  width: 30px;
+  width: 55px;
+  height: 55px;
+  flex-shrink: 0;
   text-decoration: none;
   color: aliceblue;
   background-size: 70%;
@@ -99,6 +154,10 @@ footer .website-logo {
 
 .social-link:hover {
   opacity: 0.7;
+}
+.LogoFooter {
+  margin: auto;
+  padding: 100px;
 }
 
 /*MEDIA QUERY*/

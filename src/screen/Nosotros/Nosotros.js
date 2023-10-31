@@ -5,7 +5,9 @@ function Nosotros() {
   return (
     <div className="ContainerNosotros">
       <button className="ButtonNosotros">
-        <span className="SobreNosotros">Sobre nosotros</span>
+        <span className="SobreNosotros" id="SobreNosotros">
+          Sobre nosotros
+        </span>
       </button>
       <svg
         xmlns="http://www.w3.org/2000/svg"

@@ -5,11 +5,15 @@ function Servicios() {
   return (
     <div className="ContainerServicios">
       <button className="ButtonServicios">
-        <span className="servicios">Servicios</span>
+        <span className="servicios" id="Servicios">
+          Servicios
+        </span>
       </button>
       <section className="sectionContainerCardServicios">
         <div className="serviciosCardOne">
-          <h3 className="H3Desarrollo">Desarrollo web</h3>
+          <h3 className="H3Desarrollo" id="Desarrolloweb">
+            Desarrollo web
+          </h3>
           <div className="ContenedorRectangule">
             <div className="Rectangule">
               <b className="TituloRectangule">Hosting</b>
@@ -66,7 +70,9 @@ function Servicios() {
         {/* Sistemas Pos  */}
 
         <div className="serviciosCardTwo">
-          <h3 className="H3Desarrollo">Software de Gestión</h3>
+          <h3 className="H3Desarrollo" id="SistemaPOS">
+            Software de Gestión
+          </h3>
           <div className="ContenedorRectangule">
             <div className="Rectangule">
               <b className="TituloRectangule">Puntos de ventas (POS)</b>

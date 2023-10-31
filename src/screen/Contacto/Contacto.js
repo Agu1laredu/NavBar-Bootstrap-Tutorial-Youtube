@@ -74,7 +74,7 @@ function Contacto() {
         />
       </svg>
       <div className="fila">
-        <div className="col">
+        <div className="col" id="Contacto">
           <form
             id="form"
             onSubmit={sendEmail}
@@ -127,9 +127,11 @@ function Contacto() {
               <span className="overlay"></span>
             </button>
             {showConfirmation && (
-              <p className="MensajeEnviado">
-                Mensaje enviado. ¡Gracias por contactarnos!
-              </p>
+              <div className="MensajeEnviado">
+                <p className="ModalMensaje">
+                  Mensaje enviado. ¡Gracias por contactarnos!
+                </p>
+              </div>
             )}
           </form>
         </div>
