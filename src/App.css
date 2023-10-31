@@ -1262,7 +1262,7 @@ h1 {
   }
   .Logo {
     position: relative;
-    right: -20px;
+    left: 20px;
     height: 350px;
   }
 
@@ -1271,7 +1271,7 @@ h1 {
     font-size: 30px;
     width: 405px;
     top: -100px;
-    left: -10px;
+    left: -15px;
   }
   .Button {
     top: -180px;
