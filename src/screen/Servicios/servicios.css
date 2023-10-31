@@ -749,7 +749,7 @@
     margin-left: -5px;
   }
   .ButtonServicios {
-    margin-left: 50px;
+    margin-left: 100px;
   }
   .serviciosCardOne {
     width: 500px;
@@ -855,6 +855,7 @@
   }
   .ButtonServicios {
     position: relative;
+    left: 10px;
     top: -100px;
   }
   .serviciosCardOne {

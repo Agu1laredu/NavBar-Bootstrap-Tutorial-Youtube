@@ -728,14 +728,58 @@
     margin-left: 15px;
   }
   .Parrafo {
-    margin-top: -330px;
+    margin-top: 30px;
     margin-left: 25px;
-    width: 500px;
+    width: 650px;
     color: #fff;
     font-family: Kodchasan;
-    font-size: 30px;
+    font-size: 35px;
     line-height: 50px;
     text-align: justify;
+  }
+  .HeardTopOne {
+    display: none;
+  }
+  .HeardTopTwo {
+    display: none;
+  }
+  .HeardTwo {
+    display: none;
+  }
+  .HeardOne {
+    display: none;
+  }
+}
+@media (max-width: 540px) {
+  .ContainerNosotros {
+    position: relative;
+    top: 700px;
+    width: 58%;
+  }
+  .ButtonNosotros {
+    margin-left: 15px;
+  }
+  .Parrafo {
+    margin-top: 30px;
+    margin-left: 40px;
+    width: 460px;
+    color: #fff;
+    font-family: Kodchasan;
+    font-size: 35px;
+    line-height: 50px;
+    text-align: justify;
+  }
+  .HeardTopOne {
+    display: none;
+  }
+  .HeardTopTwo {
+    display: none;
+  }
+  .HeardTwo {
+    display: none;
+  }
+  .HeardOne {
+    display: none;
   }
 }
 @media (max-width: 480px) {
@@ -784,6 +828,7 @@
   }
   .ButtonNosotros {
     position: relative;
+    left: -5px;
     top: -100px;
   }
   .Parrafo {
@@ -817,11 +862,11 @@
 @media (max-width: 390px) {
   .ContainerNosotros {
     position: relative;
-    top: 700px;
+    top: 800px;
     width: 30%;
   }
   .ButtonNosotros {
-    margin-top: 50px;
+    margin-top: 150px;
     margin-left: 80px;
     width: 250px;
     height: 80px;

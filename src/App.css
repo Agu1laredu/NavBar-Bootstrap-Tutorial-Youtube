@@ -1074,6 +1074,95 @@ h1 {
     height: 900px;
   }
 }
+@media (max-width: 540px) {
+  .ContainerMax {
+    width: 40%;
+  }
+  .App {
+    width: 30%;
+    height: 50px;
+  }
+  .Logo {
+    position: relative;
+    left: 70px;
+    height: 350px;
+  }
+
+  h1 {
+    position: relative;
+    font-size: 50px;
+    width: 405px;
+    top: -100px;
+    left: 60px;
+  }
+  .Button {
+    top: -20px;
+    left: 28%;
+  }
+
+  .Poligono1 {
+    display: none;
+  }
+
+  .Poligono2 {
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    width: 350px;
+    height: 1200px;
+  }
+
+  .Poligono3 {
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    width: 350px;
+    height: 1200px;
+  }
+  .Poligono5 {
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    width: 350px;
+    height: 1100px;
+  }
+
+  .Poligono6 {
+    display: none;
+  }
+
+  .Poligono7 {
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    width: 180px;
+    height: 800px;
+  }
+  .Poligono8 {
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    width: 350px;
+    height: 900px;
+  }
+  .Poligono9 {
+    display: none;
+  }
+  .Poligono10 {
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    width: 350px;
+    height: 1050px;
+  }
+  .Poligono11 {
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    width: 450px;
+    height: 900px;
+  }
+}
 @media (max-width: 480px) {
   .ContainerMax {
     width: 30%;
@@ -1258,11 +1347,11 @@ h1 {
   }
   .App {
     width: 30%;
-    height: 50px;
+    height: 10px;
   }
   .Logo {
     position: relative;
-    right: -15px;
+    left: 15px;
     height: 350px;
   }
 
@@ -1283,26 +1372,14 @@ h1 {
   }
 
   .Poligono2 {
-    position: absolute;
-    top: 1px;
-    left: 1px;
-    width: 350px;
-    height: 1200px;
+    display: none;
   }
 
   .Poligono3 {
-    position: absolute;
-    top: 1px;
-    left: 1px;
-    width: 350px;
-    height: 1200px;
+    display: none;
   }
   .Poligono5 {
-    position: absolute;
-    top: 1px;
-    left: 1px;
-    width: 350px;
-    height: 1100px;
+    display: none;
   }
 
   .Poligono6 {
@@ -1310,35 +1387,19 @@ h1 {
   }
 
   .Poligono7 {
-    position: absolute;
-    top: 1px;
-    left: 1px;
-    width: 180px;
-    height: 800px;
+    display: none;
   }
   .Poligono8 {
-    position: absolute;
-    top: 1px;
-    left: 1px;
-    width: 350px;
-    height: 900px;
+    display: none;
   }
   .Poligono9 {
     display: none;
   }
   .Poligono10 {
-    position: absolute;
-    top: 1px;
-    left: 1px;
-    width: 350px;
-    height: 1050px;
+    display: none;
   }
   .Poligono11 {
-    position: absolute;
-    top: 1px;
-    left: 1px;
-    width: 450px;
-    height: 900px;
+    display: none;
   }
 }
 

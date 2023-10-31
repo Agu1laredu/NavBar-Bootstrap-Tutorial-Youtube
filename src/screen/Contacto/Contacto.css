@@ -717,10 +717,10 @@
   .fila {
     display: flex;
     margin: auto;
-    margin-top: -150px;
+    margin-top: 50px;
     margin-left: 20px;
     width: 500px;
-    height: 550px;
+    height: 700px;
     flex-shrink: 0;
     border-radius: 30px;
     border: 6px solid #7294c2;
@@ -738,40 +738,21 @@
     box-shadow: 0px 6px 6px 0px #7294c2;
   }
   .ButtonMensaje {
-    left: 50px;
+    left: 5px;
+    width: 450px;
   }
 
   .TwitchChartOne {
-    position: relative;
-    left: 265px;
-    top: 50px;
-    width: 232.5px;
-    height: 229.78px;
-    flex-shrink: 0;
+    display: none;
   }
   .TwitchChartTwo {
-    position: relative;
-    left: 265px;
-    top: -168px;
-    width: 232.5px;
-    height: 229.78px;
-    flex-shrink: 0;
+    display: none;
   }
   .SVGFlechaOne {
-    position: relative;
-    left: 20px;
-    top: 18;
-    width: 300.564px;
-    height: 241.07px;
-    z-index: 300;
+    display: none;
   }
   .SVGFlechaTwo {
-    position: relative;
-    left: 20px;
-    top: -215px;
-    width: 300.564px;
-    height: 241.07px;
-    z-index: 300;
+    display: none;
   }
 }
 @media (max-width: 480px) {
@@ -863,7 +844,11 @@
     box-shadow: 0px 6px 6px 0px #7294c2;
   }
   .ButtonMensaje {
-    left: 10px;
+    left: 20px;
+    width: 300px;
+  }
+  .EnviarMensaje {
+    font-size: 30px;
   }
 
   .TwitchChartOne {
@@ -913,7 +898,7 @@
     box-shadow: 0px 6px 6px 0px #7294c2;
   }
   .ButtonMensaje {
-    left: -5px;
+    left: 20px;
   }
 }
 @media (max-width: 375px) {
