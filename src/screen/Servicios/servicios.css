@@ -152,6 +152,252 @@
     font-weight: 400;
   }
 }
+@media (max-width: 3072px) {
+  .ContainerServicios {
+    margin-top: -100px;
+  }
+
+  .sectionContainerCardServicios {
+    margin-left: 110px;
+  }
+  .ButtonServicios {
+    margin-top: 200px;
+    margin-left: 100px;
+    width: 450px;
+    height: 100px;
+  }
+
+  .servicios {
+    color: #fff;
+    text-align: center;
+    font-family: Kodchasan;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 80px; /* 250% */
+  }
+  .TituloRectangule {
+    font-size: 40px;
+  }
+  .serviciosCardOne {
+    margin: auto 80px;
+    width: 1300px;
+    height: 1674px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    border: 6px solid #7294c2;
+    background: linear-gradient(143deg, #6b609a 1.47%, #5b265f 99.16%);
+    box-shadow: 0px 24px 24px 0px #7294c2;
+  }
+  .serviciosCardTwo {
+    margin: auto 100px;
+    width: 1300px;
+    height: 1674px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    border: 6px solid #7294c2;
+    background: linear-gradient(143deg, #6b609a 1.47%, #5b265f 99.16%);
+    box-shadow: 0px 24px 24px 0px #7294c2;
+  }
+  .H3Desarrollo {
+    color: #fff;
+    text-align: center;
+    font-family: Kodchasan;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 80px; /* 250% */
+  }
+  .ContenedorRectangule {
+    height: 15%;
+  }
+  .Rectangule {
+    width: 1280px;
+    height: 56px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    border: 1px solid rgba(114, 148, 194, 0);
+    background: rgba(91, 36, 92, 0.4);
+    box-shadow: 0px 6px 6px 0px #7294c2;
+    text-align: center;
+  }
+
+  .parrafoRectangule {
+    margin-top: 50px;
+    width: 1300px;
+    height: 1430px;
+    color: #fff;
+    text-align: center;
+    font-family: Kodchasan;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+  }
+}
+@media (max-width: 2880px) {
+  .ContainerServicios {
+    margin-top: -500px;
+  }
+
+  .sectionContainerCardServicios {
+    margin-left: 300px;
+  }
+  .ButtonServicios {
+    margin-top: 200px;
+    margin-left: 100px;
+    width: 450px;
+    height: 80px;
+  }
+
+  .servicios {
+    color: #fff;
+    text-align: center;
+    font-family: Kodchasan;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 80px; /* 250% */
+  }
+  .TituloRectangule {
+    font-size: 40px;
+  }
+  .serviciosCardOne {
+    margin: auto 80px;
+    width: 1000px;
+    height: 1674px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    border: 6px solid #7294c2;
+    background: linear-gradient(143deg, #6b609a 1.47%, #5b265f 99.16%);
+    box-shadow: 0px 24px 24px 0px #7294c2;
+  }
+  .serviciosCardTwo {
+    margin: auto 100px;
+    width: 1000px;
+    height: 1674px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    border: 6px solid #7294c2;
+    background: linear-gradient(143deg, #6b609a 1.47%, #5b265f 99.16%);
+    box-shadow: 0px 24px 24px 0px #7294c2;
+  }
+  .H3Desarrollo {
+    color: #fff;
+    text-align: center;
+    font-family: Kodchasan;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 80px; /* 250% */
+  }
+  .ContenedorRectangule {
+    height: 15%;
+  }
+  .Rectangule {
+    width: 980px;
+    height: 56px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    border: 1px solid rgba(114, 148, 194, 0);
+    background: rgba(91, 36, 92, 0.4);
+    box-shadow: 0px 6px 6px 0px #7294c2;
+    text-align: center;
+  }
+
+  .parrafoRectangule {
+    margin-top: 50px;
+    width: 980px;
+    height: 1430px;
+    color: #fff;
+    text-align: center;
+    font-family: Kodchasan;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+  }
+}
+@media (max-width: 2560px) {
+  .ContainerServicios {
+    margin-top: -500px;
+  }
+
+  .sectionContainerCardServicios {
+    margin-left: 110px;
+  }
+  .ButtonServicios {
+    margin-top: 200px;
+    margin-left: 100px;
+    width: 450px;
+    height: 80px;
+  }
+
+  .servicios {
+    color: #fff;
+    text-align: center;
+    font-family: Kodchasan;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 80px; /* 250% */
+  }
+  .TituloRectangule {
+    font-size: 40px;
+  }
+  .serviciosCardOne {
+    margin: auto 80px;
+    width: 1000px;
+    height: 1674px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    border: 6px solid #7294c2;
+    background: linear-gradient(143deg, #6b609a 1.47%, #5b265f 99.16%);
+    box-shadow: 0px 24px 24px 0px #7294c2;
+  }
+  .serviciosCardTwo {
+    margin: auto 100px;
+    width: 1000px;
+    height: 1674px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    border: 6px solid #7294c2;
+    background: linear-gradient(143deg, #6b609a 1.47%, #5b265f 99.16%);
+    box-shadow: 0px 24px 24px 0px #7294c2;
+  }
+  .H3Desarrollo {
+    color: #fff;
+    text-align: center;
+    font-family: Kodchasan;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 80px; /* 250% */
+  }
+  .ContenedorRectangule {
+    height: 15%;
+  }
+  .Rectangule {
+    width: 980px;
+    height: 56px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    border: 1px solid rgba(114, 148, 194, 0);
+    background: rgba(91, 36, 92, 0.4);
+    box-shadow: 0px 6px 6px 0px #7294c2;
+    text-align: center;
+  }
+
+  .parrafoRectangule {
+    margin-top: 50px;
+    width: 980px;
+    height: 1430px;
+    color: #fff;
+    text-align: center;
+    font-family: Kodchasan;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+  }
+}
 @media (max-width: 1920px) {
   .ContainerServicios {
     margin-top: -500px;
@@ -179,6 +425,48 @@
     border: 6px solid #7294c2;
     background: linear-gradient(143deg, #6b609a 1.47%, #5b265f 99.16%);
     box-shadow: 0px 24px 24px 0px #7294c2;
+  }
+  .H3Desarrollo {
+    color: #fff;
+    text-align: center;
+    font-family: Kodchasan;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 80px; /* 250% */
+  }
+  .ContenedorRectangule {
+    height: 15%;
+  }
+  .Rectangule {
+    width: 620px;
+    height: 56px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    border: 1px solid rgba(114, 148, 194, 0);
+    background: rgba(91, 36, 92, 0.4);
+    box-shadow: 0px 6px 6px 0px #7294c2;
+    text-align: center;
+  }
+
+  .TituloRectangule {
+    color: #fff;
+    font-family: Kodchasan;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 100;
+  }
+
+  .parrafoRectangule {
+    margin-top: 50px;
+    width: 650px;
+    height: 1430px;
+    color: #fff;
+    text-align: center;
+    font-family: Kodchasan;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
   }
 }
 @media (max-width: 1440px) {
@@ -246,7 +534,7 @@
 
   .serviciosCardOne {
     margin: auto 25px;
-    width: 545px;
+    width: 620px;
     height: 1674px;
     flex-shrink: 0;
     border-radius: 30px;
@@ -255,7 +543,7 @@
     box-shadow: 0px 24px 24px 0px #7294c2;
   }
   .serviciosCardTwo {
-    width: 545px;
+    width: 620px;
     height: 1674px;
     flex-shrink: 0;
     border-radius: 30px;
@@ -276,7 +564,7 @@
     height: 15%;
   }
   .Rectangule {
-    width: 535px;
+    width: 600px;
     height: 56px;
     flex-shrink: 0;
     border-radius: 30px;
@@ -296,7 +584,7 @@
 
   .parrafoRectangule {
     margin-top: 50px;
-    width: 530px;
+    width: 600px;
     height: 1430px;
     color: #fff;
     text-align: center;
@@ -504,7 +792,59 @@
     font-weight: 400;
   }
 }
-
+@media (max-width: 480px) {
+  .ContainerServicios {
+    width: 30%;
+  }
+  .sectionContainerCardServicios {
+    width: 400px;
+  }
+  .ButtonServicios {
+    position: relative;
+    top: -150px;
+    left: 30px;
+  }
+  .serviciosCardOne {
+    width: 450px;
+    height: 1674px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    border: 6px solid #7294c2;
+    background: linear-gradient(143deg, #6b609a 1.47%, #5b265f 99.16%);
+    box-shadow: 0px 24px 24px 0px #7294c2;
+  }
+  .serviciosCardTwo {
+    margin: 100px auto;
+    width: 450px;
+    height: 1674px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    border: 6px solid #7294c2;
+    background: linear-gradient(143deg, #6b609a 1.47%, #5b265f 99.16%);
+    box-shadow: 0px 24px 24px 0px #7294c2;
+  }
+  .Rectangule {
+    width: 430px;
+    height: 56px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    border: 1px solid rgba(114, 148, 194, 0);
+    background: rgba(91, 36, 92, 0.4);
+    box-shadow: 0px 6px 6px 0px #7294c2;
+    text-align: center;
+  }
+  .parrafoRectangule {
+    margin-top: 50px;
+    width: 450px;
+    height: 1430px;
+    color: #fff;
+    text-align: center;
+    font-family: Kodchasan;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+  }
+}
 @media (max-width: 428px) {
   .ContainerServicios {
     width: 30%;

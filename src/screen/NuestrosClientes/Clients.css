@@ -35,6 +35,63 @@
     width: 3600px;
   }
 }
+@media (max-width: 3072px) {
+  .ContainerClients {
+    width: 90%;
+  }
+  .ButtonClients {
+    margin-left: 100px;
+    width: 650px;
+    height: 100px;
+  }
+  .clients {
+    color: #fff;
+    text-align: center;
+    font-family: Kodchasan;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 15px; /* 250% */
+  }
+}
+@media (max-width: 2880px) {
+  .ContainerClients {
+    width: 100%;
+  }
+  .ButtonClients {
+    margin-left: 100px;
+    width: 650px;
+    height: 100px;
+  }
+  .clients {
+    color: #fff;
+    text-align: center;
+    font-family: Kodchasan;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 15px; /* 250% */
+  }
+}
+@media (max-width: 2560px) {
+  .ContainerClients {
+    width: 100%;
+  }
+  .ButtonClients {
+    margin-left: 100px;
+    width: 650px;
+    height: 100px;
+  }
+  .clients {
+    color: #fff;
+    text-align: center;
+    font-family: Kodchasan;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 15px; /* 250% */
+  }
+}
 @media (max-width: 1500px) {
   .ContainerClients {
     width: 80%;
@@ -63,6 +120,29 @@
   }
   .ButtonClients {
     margin-left: 100px;
+    width: 350px;
+    height: 100px;
+  }
+  .clients {
+    color: #fff;
+    text-align: center;
+    font-family: Kodchasan;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 15px; /* 250% */
+  }
+}
+@media (max-width: 480px) {
+  .ContainerClients {
+    z-index: 3000;
+    top: 350px;
+    width: 30%;
+  }
+  .ButtonClients {
+    position: relative;
+    top: -200px;
+    margin-left: 70px;
     width: 350px;
     height: 100px;
   }

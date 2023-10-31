@@ -1,6 +1,47 @@
+import { useState } from "react";
 import "./Contacto.css";
+import emailjs from "emailjs-com";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function Contacto() {
+  const [showConfirmation, setShowConfirmation] = useState(false);
+
+  const serviceID = "service_mgdgsoj";
+  const templateID = "template_8rgx1f9";
+  const userID = "VBdwjP8cDYlfZzyr_"; // Reemplaza con tu User ID de EmailJS
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    const nombre = document.getElementById("nombre").value;
+    const telefono = document.getElementById("telefono").value;
+    const correo = document.getElementById("correo").value;
+    const tema = document.getElementById("tema").value;
+    const mensaje = document.getElementById("mensaje").value;
+
+    emailjs
+      .send(
+        serviceID,
+        templateID,
+        {
+          to: "Agu1laredu@hotmail.com", // Cambia con el destinatario real
+          from: correo,
+          name: nombre,
+          telefono: telefono,
+          tema: tema,
+          message: mensaje,
+        },
+        userID
+      )
+      .then(function (response) {
+        console.log("Correo enviado:", response);
+        setShowConfirmation(true); // Mostrar el mensaje de confirmación
+      })
+      .catch(function (error) {
+        console.error("Error al enviar el correo:", error);
+      });
+  };
+
   return (
     <div className="ContainerContacto">
       <button className="ButtonContacto" id="ButtonContacto">
@@ -32,36 +73,68 @@ function Contacto() {
           fill="#7294C2"
         />
       </svg>
-      <div class="fila">
-        <div class="col">
+      <div className="fila">
+        <div className="col">
           <form
-            action="mailto:Agu1laredu@Hotmail.com"
+            id="form"
+            onSubmit={sendEmail}
             method="post"
-            enctype="text/plain"
+            encType="text/plain"
           >
-            <input type="text" id="nombre" placeholder="Tu Nombre" required />
             <input
+              type="text"
+              name="nombre"
+              id="nombre"
+              placeholder="Tu Nombre"
+              required
+            />
+            <input
+              name="telefono"
               type="tel"
               id="telefono"
               placeholder="Tu Telefono"
               required
             />
-            <input type="email" id="correo" placeholder="Tu correo" required />
-            <input type="text" id="tema" placeholder="Tema" required />
+            <input
+              type="email"
+              name="email"
+              id="correo"
+              placeholder="Tu correo"
+              required
+            />
+            <input
+              type="text"
+              name="tema"
+              id="tema"
+              placeholder="Tema"
+              required
+            />
             <textarea
+              name="mensaje"
               id="mensaje"
               cols="30"
               rows="10"
               placeholder="Mensaje"
               required
             ></textarea>
-            <button type="submit" className="ButtonMensaje">
+            <button
+              type="submit"
+              id="button"
+              value="Send Email"
+              className="ButtonMensaje"
+            >
               <span className="EnviarMensaje"> Enviar Mensaje</span>
-              <span class="overlay"></span>
+              <span className="overlay"></span>
             </button>
+            {showConfirmation && (
+              <p className="MensajeEnviado">
+                Mensaje enviado. ¡Gracias por contactarnos!
+              </p>
+            )}
           </form>
         </div>
       </div>
+
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="279"
