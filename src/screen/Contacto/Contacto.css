@@ -692,7 +692,7 @@
     margin-top: -150px;
     margin-left: 120px;
     width: 813px;
-    height: 550px;
+    height: 1100px;
     flex-shrink: 0;
     border-radius: 30px;
     border: 6px solid #7294c2;
@@ -710,20 +710,20 @@
     box-shadow: 0px 6px 6px 0px #7294c2;
   }
   .ButtonMensaje {
-    left: 200px;
+    left: 150px;
   }
 
   .TwitchChartOne {
     position: relative;
     left: 765px;
-    top: 50px;
+    top: -150px;
     width: 232.5px;
     height: 229.78px;
     flex-shrink: 0;
   }
   .TwitchChartTwo {
     position: relative;
-    left: 750px;
+    left: 550px;
     top: -170px;
     width: 232.5px;
     height: 229.78px;
@@ -754,14 +754,15 @@
   }
   .ButtonContacto {
     margin-left: 60px;
+    margin-top: 10px;
   }
   .fila {
     display: flex;
     margin: auto;
-    margin-top: -150px;
+    margin-top: 100px;
     margin-left: 120px;
     width: 550px;
-    height: 550px;
+    height: 1150px;
     flex-shrink: 0;
     border-radius: 30px;
     border: 6px solid #7294c2;
@@ -779,24 +780,14 @@
     box-shadow: 0px 6px 6px 0px #7294c2;
   }
   .ButtonMensaje {
-    left: 100px;
+    left: 10px;
   }
 
   .TwitchChartOne {
-    position: relative;
-    left: 465px;
-    top: 50px;
-    width: 232.5px;
-    height: 229.78px;
-    flex-shrink: 0;
+    display: none;
   }
   .TwitchChartTwo {
-    position: relative;
-    left: 465px;
-    top: -168px;
-    width: 232.5px;
-    height: 229.78px;
-    flex-shrink: 0;
+    display: none;
   }
   .SVGFlechaOne {
     position: relative;
