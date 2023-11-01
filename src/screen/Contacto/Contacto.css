@@ -822,7 +822,7 @@
     margin-top: 50px;
     margin-left: 20px;
     width: 500px;
-    height: 700px;
+    height: 1100px;
     flex-shrink: 0;
     border-radius: 30px;
     border: 6px solid #7294c2;
@@ -860,7 +860,7 @@
 @media (max-width: 480px) {
   .ContainerContacto {
     width: 30%;
-    margin-top: 1590px;
+    margin-top: 1890px;
     height: 40%;
   }
   .ButtonContacto {
@@ -875,7 +875,7 @@
     margin-top: 50px;
     margin-left: 50px;
     width: 400px;
-    height: 600px;
+    height: 1100px;
     flex-shrink: 0;
     border-radius: 30px;
     border: 6px solid #7294c2;
@@ -893,8 +893,9 @@
     box-shadow: 0px 6px 6px 0px #7294c2;
   }
   .ButtonMensaje {
-    left: 5px;
+    left: -5px;
     top: 50px;
+    width: 380px;
   }
 
   .TwitchChartOne {
@@ -913,7 +914,7 @@
 @media (max-width: 428px) {
   .ContainerContacto {
     width: 30%;
-    margin-top: 1590px;
+    margin-top: 1790px;
     height: 40%;
   }
   .ButtonContacto {
@@ -928,7 +929,7 @@
     margin-top: 50px;
     margin-left: 20px;
     width: 400px;
-    height: 550px;
+    height: 1150px;
     flex-shrink: 0;
     border-radius: 30px;
     border: 6px solid #7294c2;
@@ -982,7 +983,7 @@
     margin-top: 50px;
     margin-left: 8px;
     width: 380px;
-    height: 550px;
+    height: 1150px;
     flex-shrink: 0;
     border-radius: 30px;
     border: 6px solid #7294c2;
@@ -1006,7 +1007,7 @@
 @media (max-width: 375px) {
   .ContainerContacto {
     width: 30%;
-    margin-top: 1590px;
+    margin-top: 1790px;
   }
   .ButtonContacto {
     margin-left: 40px;
@@ -1018,7 +1019,7 @@
     margin-top: -20px;
     margin-left: 8px;
     width: 360px;
-    height: 700px;
+    height: 1100px;
     flex-shrink: 0;
     border-radius: 30px;
     border: 6px solid #7294c2;
