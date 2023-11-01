@@ -709,6 +709,17 @@
     background: rgba(91, 36, 92, 0.4);
     box-shadow: 0px 6px 6px 0px #7294c2;
   }
+  .col input:focus,
+  .col textarea:focus:is(:valid) ~ label {
+    transform: translateY(-140%);
+    transform: scale(0.7);
+    background-color: rgba(91, 36, 92, 0.4);
+    padding-inline: 0.3rem;
+    color: rgba(91, 36, 92, 0.4);
+    border: 1px solid var(rgba(91, 36, 92, 0.4));
+    width: 800px;
+    margin-left: 50px;
+  }
   .ButtonMensaje {
     left: 150px;
   }
@@ -891,6 +902,18 @@
     border: 1px solid rgba(114, 148, 194, 0);
     background: rgba(91, 36, 92, 0.4);
     box-shadow: 0px 6px 6px 0px #7294c2;
+  }
+  .col input:focus,
+  .col textarea:focus:is(:valid) ~ label {
+    transform: translateY(-140%);
+    transform: scale(0.7);
+    background-color: rgba(91, 36, 92, 0.4);
+    padding-inline: 0.3rem;
+    color: rgba(91, 36, 92, 0.4);
+    border: 1px solid var(rgba(91, 36, 92, 0.4));
+    width: 400px;
+    margin-top: 100px;
+    margin-left: -10px;
   }
   .ButtonMensaje {
     left: -5px;
