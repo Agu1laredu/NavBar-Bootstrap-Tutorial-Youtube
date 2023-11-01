@@ -81,40 +81,20 @@ function Contacto() {
             method="post"
             encType="text/plain"
           >
-            <input
-              type="text"
-              name="nombre"
-              id="nombre"
-              placeholder="Tu Nombre"
-              required
-            />
-            <input
-              name="telefono"
-              type="tel"
-              id="telefono"
-              placeholder="Tu Telefono"
-              required
-            />
-            <input
-              type="email"
-              name="email"
-              id="correo"
-              placeholder="Tu correo"
-              required
-            />
-            <input
-              type="text"
-              name="tema"
-              id="tema"
-              placeholder="Tema"
-              required
-            />
+            <span className="SpanName">Tu Nombre</span>
+            <input type="text" name="nombre" id="nombre" required />
+            <span className="SpanTelefono">Número de telefono</span>
+            <input name="telefono" type="tel" id="telefono" required />
+            <span className="SpanCorreo">Correo electronico </span>
+            <input type="email" name="email" id="correo" required />
+            <span className="SpanTema">Tema </span>
+            <input type="text" name="tema" id="tema" required />
+            <span className="SpanMensaje">Mensaje </span>
             <textarea
               name="mensaje"
               id="mensaje"
               cols="30"
               rows="10"
-              placeholder="Mensaje"
               required
             ></textarea>
             <button

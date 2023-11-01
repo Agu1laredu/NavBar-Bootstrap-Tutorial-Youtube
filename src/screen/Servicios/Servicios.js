@@ -108,7 +108,7 @@ function Servicios() {
           </div>
           <div className="ContenedorRectangule">
             <div className="Rectangule">
-              <b className="TituloRectangule">Informes y analizis</b>
+              <b className="TituloRectangule">Informes y análisis</b>
             </div>
             <p className="parrafoRectangule">
               Generación de informes sobre ventas, inventario y otros datos.
