@@ -70,16 +70,7 @@
   transition: 150ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .col input::placeholder {
-  z-index: 20;
-  all: unset;
-  width: 1000px;
-  height: 74px;
-  flex-shrink: 0;
   text-indent: 40px;
-  border-radius: 30px;
-  border: 1px solid rgba(114, 148, 194, 0);
-  background: rgba(91, 36, 92, 0.4);
-  box-shadow: 0px 6px 6px 0px #7294c2;
   color: #fff;
   font-family: Kodchasan;
   font-size: 24px;
