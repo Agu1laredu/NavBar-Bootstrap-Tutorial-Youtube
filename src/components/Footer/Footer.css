@@ -728,7 +728,7 @@ p {
 }
 @media (max-width: 480px) {
   .FooterContainer {
-    width: 60%;
+    width: 30%;
     margin-top: 10px;
   }
   .footer-container {
