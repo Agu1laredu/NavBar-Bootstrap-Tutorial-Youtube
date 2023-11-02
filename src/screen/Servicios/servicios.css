@@ -155,6 +155,7 @@
 @media (max-width: 3072px) {
   .ContainerServicios {
     margin-top: -100px;
+    width: 85%;
   }
 
   .sectionContainerCardServicios {

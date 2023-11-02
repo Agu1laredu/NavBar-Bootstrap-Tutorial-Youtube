@@ -237,7 +237,7 @@
 }
 @media (min-width: 3072px) {
   .ContainerNosotros {
-    width: 100%;
+    width: 85%;
   }
   .SobreNosotros {
     font-size: 50px;
@@ -245,21 +245,21 @@
   .Parrafo {
     margin-top: -600px;
     margin-left: 90px;
-    width: 70%;
+    width: 80%;
     color: #fff;
-    font-size: 50px;
+    font-size: 80px;
   }
   .HeardTopOne {
     position: relative;
     top: -20%;
-    left: 75%;
+    left: 89.5%;
     display: flex;
     height: 357.631px;
   }
   .HeardTopTwo {
     position: relative;
     top: 2%;
-    left: 75%;
+    left: 89.5%;
     display: flex;
     height: 357.631px;
   }
