@@ -956,7 +956,7 @@ textarea::placeholder {
     margin-top: 50px;
     margin-left: 20px;
     width: 400px;
-    height: 1200px;
+    height: 1000px;
     flex-shrink: 0;
     border-radius: 30px;
     border: 6px solid #7294c2;
