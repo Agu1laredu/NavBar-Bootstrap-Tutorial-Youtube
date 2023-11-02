@@ -783,7 +783,7 @@ p {
 
 @media (max-width: 428px) {
   .FooterContainer {
-    width: 60%;
+    width: 30%;
     margin-top: 10px;
   }
   footer {
@@ -809,7 +809,7 @@ p {
   .ButtonSiguenos {
     position: relative;
     top: -150px;
-    left: -390px;
+    left: -100px;
     width: 300px;
     height: 80px;
   }
@@ -825,8 +825,10 @@ p {
     width: 20%;
   }
   .LogoFooter {
-    margin-top: -400px;
-    margin-left: -180px;
+    margin-top: -250px;
+    margin-left: 5px;
+    width: 400px;
+    height: 400px;
   }
 }
 @media (max-width: 375px) {

@@ -961,7 +961,7 @@
   }
   .col input,
   .col textarea {
-    width: 380px;
+    width: 370px;
     height: 74px;
     flex-shrink: 0;
     border-radius: 30px;
@@ -970,11 +970,8 @@
     box-shadow: 0px 6px 6px 0px #7294c2;
   }
   .ButtonMensaje {
-    left: 20px;
-    width: 300px;
-  }
-  .EnviarMensaje {
-    font-size: 30px;
+    left: -5px;
+    width: 370px;
   }
 
   .TwitchChartOne {
