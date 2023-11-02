@@ -35,8 +35,8 @@ function Footer() {
               d="M74.0002 203.667C130.149 203.667 175.667 158.149 175.667 102C175.667 45.8511 130.149 0.333344 74.0002 0.333344C17.8512 0.333344 -27.6665 45.8511 -27.6665 102C-27.6665 158.149 17.8512 203.667 74.0002 203.667Z"
               stroke="#7294C2"
               stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeLinecap="round"
+              strokeLinejoin="round"
             />
             <path
               d="M114.667 102L74.0002 61.3333L33.3335 102"
@@ -91,11 +91,11 @@ function Footer() {
             </filter>
           </defs>
         </svg>
-        <div class="footer-container">
-          <div class="footer-menus">
-            <div class="footer-content-container">
+        <div className="footer-container">
+          <div className="footer-menus">
+            <div className="footer-content-container">
               <div className="contenedorP" style={{ textAlign: "center" }}>
-                <p href="" class="menu-item-footer">
+                <p href="" className="menu-item-footer">
                   <a
                     href="#MenuInicio"
                     style={{ textDecoration: "none", color: "#FFF" }}
@@ -103,7 +103,7 @@ function Footer() {
                     Menu
                   </a>
                 </p>
-                <p href="" class="menu-item-footer">
+                <p href="" className="menu-item-footer">
                   <a
                     href="#Servicios"
                     style={{ textDecoration: "none", color: "#FFF" }}
@@ -114,7 +114,7 @@ function Footer() {
               </div>
 
               <div className="contenedorP" style={{ textAlign: "center" }}>
-                <p href="" class="menu-item-footer">
+                <p href="" className="menu-item-footer">
                   <a
                     href="#SobreNosotros"
                     style={{ textDecoration: "none", color: "#FFF" }}
@@ -122,7 +122,7 @@ function Footer() {
                     Sobre nosotros
                   </a>
                 </p>
-                <p href="" class="menu-item-footer">
+                <p href="" className="menu-item-footer">
                   <a
                     href="#Desarrolloweb"
                     style={{ textDecoration: "none", color: "#FFF" }}
@@ -133,7 +133,7 @@ function Footer() {
               </div>
 
               <div className="contenedorP" style={{ textAlign: "center" }}>
-                <p href="" class="menu-item-footer">
+                <p href="" className="menu-item-footer">
                   <a
                     href="#Contacto"
                     style={{ textDecoration: "none", color: "#FFF" }}
@@ -141,7 +141,7 @@ function Footer() {
                     Contacto
                   </a>
                 </p>
-                <p href="" class="menu-item-footer">
+                <p href="" className="menu-item-footer">
                   <a
                     href="#SistemaPOS"
                     style={{ textDecoration: "none", color: "#FFF" }}
@@ -157,12 +157,12 @@ function Footer() {
       </footer>
 
       <div className="ContenedorFooterFinis">
-        <div class="footer-content-containerDos">
+        <div className="footer-content-containerDos">
           <div className="ButtonSiguenos">
-            <span class="menu-title">Siguenos</span>
+            <span className="menu-title">Siguenos</span>
           </div>
-          <div class="social-container">
-            <p href="" class="social-link">
+          <div className="social-container">
+            <p href="" className="social-link">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="55"
@@ -181,7 +181,7 @@ function Footer() {
               </svg>
             </p>
 
-            <p href="" class="social-link">
+            <p href="" className="social-link">
               <a
                 href="https://www.instagram.com/digitalmoon.software/"
                 className="social-link"

@@ -1165,10 +1165,10 @@ h1 {
 }
 @media (max-width: 480px) {
   .ContainerMax {
-    width: 30%;
+    width: 60%;
   }
   .App {
-    width: 30%;
+    width: 60%;
     height: 50px;
   }
   .Logo {
@@ -1182,7 +1182,7 @@ h1 {
     font-size: 30px;
     width: 405px;
     top: -100px;
-    left: -430px;
+    left: 10px;
   }
   .Button {
     top: -150px;
