@@ -841,6 +841,7 @@
   .Rectangule {
     width: 380px;
     height: 56px;
+    margin-left: 5px;
     flex-shrink: 0;
     border-radius: 30px;
     border: 1px solid rgba(114, 148, 194, 0);
