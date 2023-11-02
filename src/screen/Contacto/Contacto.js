@@ -81,18 +81,36 @@ function Contacto() {
             method="post"
             encType="text/plain"
           >
-            <lebel className="SpanName" for="username">
-              Tu Nombre
-            </lebel>
-            <input type="text" name="nombre" id="nombre" required />
-            <lebel className="SpanTelefono">Número de telefono</lebel>
-            <input name="telefono" type="tel" id="telefono" required />
-            <lebel className="SpanCorreo">Correo electronico </lebel>
-            <input type="email" name="email" id="correo" required />
-            <lebel className="SpanTema">Tema </lebel>
-            <input type="text" name="tema" id="tema" required />
-            <lebel className="SpanMensaje">Mensaje </lebel>
+            <input
+              type="text"
+              name="nombre"
+              id="nombre"
+              placeholder="Nombre"
+              required
+            />
+            <input
+              name="telefono"
+              type="tel"
+              id="telefono"
+              placeholder="Número de telefono"
+              required
+            />
+            <input
+              type="email"
+              name="email"
+              id="correo"
+              placeholder="Correo electronico "
+              required
+            />
+            <input
+              type="text"
+              name="tema"
+              id="tema"
+              placeholder="Tema"
+              required
+            />
             <textarea
+              placeholder="Mensaje"
               name="mensaje"
               id="mensaje"
               cols="30"
