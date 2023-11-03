@@ -766,7 +766,7 @@ textarea::placeholder {
   }
   .col input,
   .col textarea {
-    width: 520px;
+    width: 500px;
     height: 74px;
     flex-shrink: 0;
     border-radius: 30px;
@@ -826,7 +826,7 @@ textarea::placeholder {
   }
   .col input,
   .col textarea {
-    width: 470px;
+    width: 450px;
     height: 74px;
     flex-shrink: 0;
     border-radius: 30px;
@@ -879,7 +879,7 @@ textarea::placeholder {
   }
   .col input,
   .col textarea {
-    width: 370px;
+    width: 350px;
     height: 74px;
     flex-shrink: 0;
     border-radius: 30px;
@@ -925,7 +925,7 @@ textarea::placeholder {
     margin-top: 50px;
     margin-left: 20px;
     width: 400px;
-    height: 1000px;
+    height: 1100px;
     flex-shrink: 0;
     border-radius: 30px;
     border: 6px solid #7294c2;
@@ -934,7 +934,7 @@ textarea::placeholder {
   }
   .col input,
   .col textarea {
-    width: 370px;
+    width: 350px;
     height: 74px;
     flex-shrink: 0;
     border-radius: 30px;
@@ -985,7 +985,7 @@ textarea::placeholder {
   }
   .col input,
   .col textarea {
-    width: 350px;
+    width: 330px;
     height: 74px;
     flex-shrink: 0;
     border-radius: 30px;
