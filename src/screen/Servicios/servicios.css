@@ -578,6 +578,7 @@
     height: 15%;
   }
   .Rectangule {
+    margin: auto;
     width: 600px;
     height: 56px;
     flex-shrink: 0;

@@ -56,6 +56,7 @@
   z-index: 20;
   all: unset;
   width: 1000px;
+  padding: 10px;
   height: 74px;
   flex-shrink: 0;
   border-radius: 30px;
@@ -564,7 +565,7 @@ textarea::placeholder {
   }
   .col input,
   .col textarea {
-    width: 980px;
+    width: 950px;
     height: 74px;
     flex-shrink: 0;
     border-radius: 30px;
