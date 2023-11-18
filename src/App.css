@@ -1,1431 +1,382 @@
-.Logo {
-  position: relative;
-  right: -1200px;
-  width: 360px;
-  height: 360px;
-  flex-shrink: 0;
+.ContainerMax {
+  max-width: 1400px;
+  margin: auto;
+}
+.App {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  margin: auto;
+}
+.Containers {
+  width: 50%;
+  background-image: url("./assets/Poligonos/Polygon1.png");
+}
+.Container {
+  width: 50%;
 }
 
-h1 {
-  position: relative;
-  margin: auto;
-  width: 747px;
-  height: 235px;
-  flex-shrink: 0;
+#MenuLogo {
+  margin-top: -10%;
   color: #fff;
   text-align: center;
   font-family: Kodchasan;
-  font-size: 64px;
+  font-size: 200%;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 80px; /* 333.333% */
+}
+#MenuInicio {
+  height: 50%;
+  width: 50%;
+  justify-content: right;
+}
+.Section1 {
+  text-align: center;
+}
+h1 {
+  color: #fff;
+  text-align: center;
+  font-family: Kodchasan;
+  font-size: 8rem;
   font-style: normal;
   font-weight: 700;
   line-height: 80px; /* 125% */
-  z-index: 3000;
+  margin: auto;
+  margin-top: 200px;
 }
+
 .Button {
-  position: relative;
-  left: 40%;
-  top: 50px;
-  width: 350px;
-  height: 80px;
-  flex-shrink: 0;
+  margin-top: 30px;
   border-radius: 40px;
   border: 3px solid #7294c2;
   background: linear-gradient(266deg, #5b245c 5.02%, #4263b4 142.75%);
-  box-shadow: 7px 7px 7px 7px rgba(0, 0, 0, 0.5);
-  z-index: 3000;
+  box-shadow: 7px 7px 7px 7px #7294c2;
+  width: 200px;
+  height: 50%;
+  flex-shrink: 0;
 }
 .Span {
   color: #fff;
   text-align: center;
   font-family: Kodchasan;
-  font-size: 24px;
+  font-size: 200%;
   font-style: normal;
   font-weight: 700;
   line-height: 80px; /* 333.333% */
 }
-.Poligono1 {
-  position: absolute;
-  top: -360px;
-  left: -550px;
-  width: 1600px;
-  height: 1500px;
-  z-index: 50;
-  overflow: hidden;
+.Section2 {
+  margin: auto;
+  margin-top: 500px;
+  max-width: 1202px;
+}
+.Parrafo {
+  margin: auto;
+  padding: 20px;
+  text-align: justify;
+  max-width: 1202px;
+  color: #fff;
+  font-family: Kodchasan;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100px; /* 416.667% */
 }
 
-.Poligono2 {
-  position: absolute;
-  top: -360px;
-  left: -60px;
-  width: 1300px;
-  height: 1600px;
-  z-index: 48;
-  overflow: hidden;
+.Section3 {
+  margin: auto;
+  margin-top: 100px;
+  max-width: 1202px;
+}
+.divCards {
+  margin: auto;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  display: flex;
+}
+.Cards {
+  margin: auto;
+  margin-top: 10%;
+  width: 18rem;
+  height: 20rem;
+  border-radius: 30px;
+  border: 6px solid #7294c2;
+  background: linear-gradient(143deg, #6b609a 1.47%, #5b265f 99.16%);
+}
+#Cinco {
+  width: 15rem;
+  height: 18rem;
+  margin: auto;
+}
+.Section4 {
+  margin: auto;
+  margin-top: 100px;
+  max-width: 1202px;
+}
+.divCardss {
+  margin: auto;
+  padding: 20px;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  display: flex;
+  width: 100%;
+}
+.Cardss {
+  padding: 30px;
+  margin: auto 20px;
+  margin-top: 10%;
+  width: 45%;
+  height: 100%;
+  flex-shrink: 0;
+  border-radius: 30px;
+  border: 6px solid #7294c2;
+  background: linear-gradient(143deg, #6b609a 1.47%, #5b265f 99.16%);
 }
 
-.Poligono3 {
-  position: absolute;
-  top: -700px;
-  left: 5px;
-  width: 1200px;
-  height: 2000px;
-  z-index: 47;
-  overflow: hidden;
+.ServiciosDiv {
+  margin: auto;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  display: flex;
+  margin-top: 50px;
+  height: 30px;
+  border-radius: 30px;
+  border: 1px solid rgba(114, 148, 194, 0);
+  background: rgba(91, 36, 92, 0.4);
+  box-shadow: 0px 6px 6px 0px #7294c2;
 }
-.Poligono5 {
-  position: absolute;
-  top: -1000px;
-  left: 5px;
-  width: 900px;
-  height: 2000px;
-  z-index: 60;
-  overflow: hidden;
+.ServiciosDiv p {
+  margin: 10px auto;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-family: Kodchasan;
+  font-size: 14px;
+  line-height: 10px; /* 416.667% */
+}
+.ParrafoCard {
+  margin-top: 100px;
+  color: #fff;
+  font-family: Kodchasan;
+  font-size: 14px;
+  line-height: 10px; /* 416.667% */
 }
 
-.Poligono6 {
-  position: absolute;
-  top: -1150px;
-  left: 5px;
-  width: 750px;
-  height: 2100px;
-  z-index: 60;
-  overflow: hidden;
+/* section contacto */
+
+#Contacto {
+  margin-top: 100px;
+  width: 100%;
+  height: 100%;
+  flex-shrink: 0;
+}
+#form {
+  display: grid;
+  height: 100%;
+}
+.col input,
+.col textarea {
+  z-index: 20;
+  all: unset;
+  width: 95%;
+  margin: auto;
+  margin-top: 20px;
+  padding: 10px;
+  height: 74px;
+  flex-shrink: 0;
+  border-radius: 30px;
+  border: 1px solid rgba(114, 148, 194, 0);
+  background: rgba(91, 36, 92, 0.4);
+  box-shadow: 0px 6px 6px 0px #7294c2;
+  color: #fff;
+  font-family: Kodchasan;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  transition: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.col input::placeholder {
+  text-indent: 40px;
+  color: #fff;
+  font-family: Kodchasan;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  transition: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+textarea::placeholder {
+  text-indent: 40px;
+  color: #fff;
+  font-family: Kodchasan;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  transition: 150ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.Poligono7 {
-  position: absolute;
-  top: -1000px;
-  left: 5px;
-  width: 800px;
-  height: 2000px;
-  z-index: 60;
-  overflow: hidden;
+#mensaje {
+  height: 100px;
 }
-.Poligono8 {
-  position: absolute;
-  top: -10px;
-  left: 10px;
-  width: 1900px;
-  height: 2000px;
-  z-index: 40;
-  overflow: hidden;
+.ButtonMensaje {
+  position: relative;
+  top: 30px;
+  margin: auto;
+  width: 20%;
+  height: 100%;
+  flex-shrink: 0;
+  border-radius: 40px;
+  border: 3px solid #7294c2;
+  background: linear-gradient(266deg, #5b245c 5.02%, #4263b4 142.75%);
+  box-shadow: 7px 7px 7px 7px #7294c2;
 }
-.Poligono9 {
-  position: absolute;
-  top: -10px;
-  left: 5px;
-  width: 1300px;
-  height: 1400px;
-  z-index: 42;
-  overflow: hidden;
-}
-.Poligono10 {
-  position: absolute;
-  top: -1100px;
-  left: 100px;
-  width: 1200px;
-  height: 2600px;
-  z-index: 41;
-  overflow: hidden;
-}
-.Poligono11 {
-  position: absolute;
-  top: -1100px;
-  left: 200px;
-  width: 1200px;
-  height: 2600px;
-  z-index: 35;
-  overflow: hidden;
-}
-@media (min-width: 3300px) {
-  .ContainerMax {
-    width: 100%;
-  }
-  .Logo {
-    position: relative;
-    right: -1900px;
-    width: 660px;
-    height: 660px;
-  }
 
+.ModalMensaje {
+  color: #fff;
+  text-align: center;
+  font-family: Kodchasan;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 80px; /* 250% */
+  margin: auto;
+  margin-top: 100px;
+}
+.MensajeEnviado {
+  margin: auto;
+  text-align: center;
+  width: 754px;
+  height: 318px;
+  border-radius: 30px;
+  border: 3px solid #7294c2;
+  background: linear-gradient(218deg, #6b609a -4.18%, #5d2b64 98.82%);
+  backdrop-filter: blur(12px);
+}
+.EnviarMensaje {
+  width: 603px;
+  height: 652px;
+  color: #fff;
+  font-family: Kodchasan;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 80px; /* 333.333% */
+}
+
+/* Footer css */
+.footer-container {
+  margin-top: 250px;
+}
+.footer-content-containerDos {
+  display: flex;
+  justify-content: space-around;
+  justify-items: center;
+  margin: auto;
+  margin-top: 50px;
+  width: 100%;
+}
+.social-container {
+  display: flex;
+  margin: auto;
+}
+.contenedorP {
+  display: flex;
+  justify-content: space-around;
+  border-radius: 30px;
+  border: 1px solid rgba(114, 148, 194, 0);
+  background: rgba(91, 36, 92, 0.4);
+  box-shadow: 0px 6px 6px 0px #7294c2;
+  width: 95%;
+  margin: auto;
+  margin-top: 20px;
+  padding: 10px;
+  height: 74px;
+}
+.contenedorP p {
+  text-indent: 40px;
+  color: #fff;
+  font-family: Kodchasan;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+}
+.FooterButton {
+  margin: auto;
+  margin-top: 30px;
+  border-radius: 40px;
+  border: 3px solid #7294c2;
+  background: linear-gradient(266deg, #5b245c 5.02%, #4263b4 142.75%);
+  box-shadow: 7px 7px 7px 7px #7294c2;
+  width: 200px;
+  height: 50%;
+  flex-shrink: 0;
+}
+.LogoFooter {
+  justify-content: center;
+  justify-items: center;
+  margin: auto;
+  margin-top: -30px;
+  width: 20%;
+}
+
+@media (max-width: 1000px) {
   h1 {
-    position: relative;
-    left: -100px;
+    font-size: 5rem;
   }
-  .Button {
-    position: relative;
-    left: 1630px;
-    top: 50px;
-  }
-
-  .Poligono1 {
-    position: absolute;
-    top: -300px;
-    left: -1500px;
-    width: 120%;
-    height: 100%;
-    z-index: 15;
-  }
-
-  .Poligono2 {
-    position: absolute;
-    top: -400px;
-    left: -1500px;
-    width: 120%;
-    height: 100%;
-    z-index: 16;
-  }
-
-  .Poligono3 {
-    position: absolute;
-    top: -500px;
-    left: -1000px;
-    width: 120%;
-    height: 110%;
-    z-index: 47;
-  }
-  .Poligono5 {
-    position: absolute;
-    top: -600px;
-    left: -850px;
-    width: 120%;
-    height: 110%;
-    z-index: 60;
-  }
-
-  .Poligono6 {
-    position: absolute;
-    top: -600px;
-    left: -850px;
-    width: 120%;
-    height: 110%;
-    z-index: 60;
-  }
-
-  .Poligono7 {
-    position: absolute;
-    top: -300px;
-    left: -1500px;
-    width: 120%;
-    height: 100%;
-    z-index: 60;
-  }
-  .Poligono8 {
-    position: absolute;
-    top: -10px;
-    left: 10px;
-    width: 1900px;
-    height: 2000px;
-    z-index: 40;
-  }
-  .Poligono9 {
-    position: absolute;
-    top: -200px;
-    left: -2500px;
-    width: 130%;
-    height: 100%;
-    z-index: 16;
-  }
-  .Poligono10 {
-    position: absolute;
-    top: -300px;
-    left: -200px;
-    width: 80%;
-    height: 120%;
-    z-index: 20;
-  }
-  .Poligono11 {
-    position: absolute;
-    top: -300px;
-    left: 10px;
-    width: 80%;
-    height: 120%;
-    z-index: 12;
-  }
-}
-@media (min-width: 3072px) {
-  .ContainerMax {
-    width: 100%;
-  }
-  .App {
-    width: 85%;
-  }
-  .Logo {
-    position: relative;
-    left: 1500px;
-    width: 460px;
-    height: 460px;
-  }
-
-  h1 {
-    position: relative;
-    width: 1500px;
-    height: 235px;
-    font-size: 100px;
-  }
-  .Button {
-    position: relative;
-    left: 1200px;
-    top: 50px;
-    width: 650px;
-    height: 100px;
-  }
-  .Span {
-    color: #fff;
+  .divCards {
+    display: grid;
+    margin: auto;
+    align-items: center;
+    align-content: center;
     text-align: center;
-    font-family: Kodchasan;
-    font-size: 44px;
-  }
-
-  .Poligono1 {
-    position: absolute;
-    top: -360px;
-    left: -100px;
-    width: 1400px;
-    height: 1500px;
-  }
-
-  .Poligono2 {
-    position: absolute;
-    top: -250px;
-    left: 10px;
-    width: 1000px;
-    height: 1600px;
-  }
-
-  .Poligono3 {
-    position: absolute;
-    top: 100px;
-    left: -50px;
-    width: 900px;
-    height: 1800px;
-  }
-  .Poligono5 {
-    position: absolute;
-    top: 100px;
-    left: -50px;
-    width: 900px;
-    height: 2100px;
-  }
-
-  .Poligono6 {
-    position: absolute;
-    top: -1000px;
-    left: -65px;
-    width: 750px;
-    height: 2100px;
-  }
-
-  .Poligono7 {
-    position: absolute;
-    top: 100px;
-    left: -1px;
-    width: 900px;
-    height: 2100px;
-  }
-  .Poligono8 {
-    position: absolute;
-    top: -10px;
-    left: 10px;
-    width: 1900px;
-    height: 2000px;
-  }
-  .Poligono9 {
-    position: absolute;
-    top: -10px;
-    left: 5px;
-    width: 900px;
-    height: 1100px;
-  }
-  .Poligono10 {
-    position: absolute;
-    top: 100px;
-    left: 5px;
-    width: 1000px;
-    height: 2500px;
-  }
-  .Poligono11 {
-    position: absolute;
-    top: 100px;
-    left: 5px;
-  }
-}
-@media (max-width: 2880px) {
-  .ContainerMax {
     width: 100%;
   }
-  .App {
-    width: 100%;
-  }
-  .Logo {
-    position: relative;
-    right: -1500px;
-    width: 360px;
-    height: 360px;
-  }
-
-  h1 {
-    position: relative;
-    width: 1500px;
-    height: 235px;
-    font-size: 100px;
-  }
-  .Button {
-    position: relative;
-    left: 1100px;
-    top: 50px;
-    width: 650px;
-    height: 100px;
-  }
-  .Span {
-    color: #fff;
+  .divCardss {
+    display: grid;
+    margin: auto;
+    align-items: center;
+    align-content: center;
     text-align: center;
-    font-family: Kodchasan;
-    font-size: 44px;
-  }
-
-  .Poligono1 {
-    position: absolute;
-    top: -360px;
-    left: -100px;
-    width: 1400px;
-    height: 1500px;
-  }
-
-  .Poligono2 {
-    position: absolute;
-    top: -250px;
-    left: 10px;
-    width: 1000px;
-    height: 1600px;
-  }
-
-  .Poligono3 {
-    position: absolute;
-    top: -700px;
-    left: -50px;
-    width: 900px;
-    height: 1800px;
-  }
-  .Poligono5 {
-    position: absolute;
-    top: -1000px;
-    left: -50px;
-    width: 900px;
-    height: 2100px;
-  }
-
-  .Poligono6 {
-    position: absolute;
-    top: -1150px;
-    left: -65px;
-    width: 750px;
-    height: 2100px;
-  }
-
-  .Poligono7 {
-    position: absolute;
-    top: -1000px;
-    left: -1px;
-    width: 900px;
-    height: 2100px;
-  }
-  .Poligono8 {
-    position: absolute;
-    top: -10px;
-    left: 10px;
-    width: 1900px;
-    height: 2000px;
-  }
-  .Poligono9 {
-    position: absolute;
-    top: -10px;
-    left: 5px;
-    width: 900px;
-    height: 1100px;
-  }
-  .Poligono10 {
-    position: absolute;
-    top: -1100px;
-    left: 5px;
-    width: 1000px;
-    height: 2500px;
-  }
-  .Poligono11 {
-    position: absolute;
-    top: -1100px;
-    left: 5px;
-  }
-}
-@media (max-width: 2560px) {
-  .ContainerMax {
     width: 100%;
   }
-  .App {
+  .Cardss {
+    width: 100%;
+    margin: auto;
+    margin-top: 10px;
+  }
+  .Cards {
+    width: 50%;
+    margin: auto;
+    margin-top: 100px;
+  }
+  .ServiciosDiv {
+    margin: auto;
+    margin-top: 30px;
     width: 100%;
   }
-  .Logo {
-    position: relative;
-    right: -1500px;
-    width: 360px;
-    height: 360px;
-  }
-
-  h1 {
-    position: relative;
-    width: 1500px;
-    height: 235px;
-    font-size: 100px;
-  }
-  .Button {
-    position: relative;
-    left: 900px;
-    top: 50px;
-    width: 650px;
-    height: 100px;
-  }
-  .Span {
-    color: #fff;
-    text-align: center;
-    font-family: Kodchasan;
-    font-size: 44px;
-  }
-
-  .Poligono1 {
-    position: absolute;
-    top: -360px;
-    left: -100px;
-    width: 1400px;
-    height: 1500px;
-  }
-
-  .Poligono2 {
-    position: absolute;
-    top: -250px;
-    left: 10px;
-    width: 1000px;
-    height: 1600px;
-  }
-
-  .Poligono3 {
-    position: absolute;
-    top: -700px;
-    left: -50px;
-    width: 900px;
-    height: 1800px;
-  }
-  .Poligono5 {
-    position: absolute;
-    top: -1000px;
-    left: -50px;
-    width: 900px;
-    height: 2100px;
-  }
-
-  .Poligono6 {
-    position: absolute;
-    top: -1150px;
-    left: -65px;
-    width: 750px;
-    height: 2100px;
-  }
-
-  .Poligono7 {
-    position: absolute;
-    top: -1000px;
-    left: -1px;
-    width: 900px;
-    height: 2100px;
-  }
-  .Poligono8 {
-    position: absolute;
-    top: -10px;
-    left: 10px;
-    width: 1900px;
-    height: 2000px;
-  }
-  .Poligono9 {
-    position: absolute;
-    top: -10px;
-    left: 5px;
-    width: 900px;
-    height: 1100px;
-  }
-  .Poligono10 {
-    position: absolute;
-    top: -1100px;
-    left: 5px;
-    width: 1000px;
-    height: 2500px;
-  }
-  .Poligono11 {
-    position: absolute;
-    top: -1100px;
-    left: 5px;
-  }
-}
-@media (max-width: 1920px) {
-  .Logo {
-    left: 1200px;
-  }
-  h1 {
-    position: relative;
-    width: 1000px;
-    height: 235px;
-  }
-  .Button {
-    position: relative;
-    left: 800px;
-    top: 50px;
-    width: 350px;
-    height: 80px;
-  }
-  .Poligono1 {
-    position: absolute;
-    top: -50px;
-    left: -400px;
-    z-index: 15;
-  }
-
-  .Poligono2 {
-    position: absolute;
-    top: -450px;
-    left: -500px;
-    z-index: 16;
-  }
-
-  .Poligono3 {
-    position: absolute;
-    top: -500px;
-    left: -200px;
-    z-index: 47;
-  }
-  .Poligono5 {
-    position: absolute;
-    top: -600px;
-    left: -50px;
-    z-index: 60;
-  }
-
-  .Poligono6 {
-    position: absolute;
-    top: -600px;
-    left: 2px;
-    z-index: 60;
-  }
-
-  .Poligono7 {
-    position: absolute;
-    top: -300px;
-    left: -1500px;
-    z-index: 60;
-  }
-  .Poligono8 {
-    position: absolute;
-    top: -10px;
-    left: 10px;
-    z-index: 40;
-  }
-  .Poligono9 {
-    position: absolute;
-    top: -200px;
-    left: -400px;
-    z-index: 16;
-  }
-  .Poligono10 {
-    position: absolute;
-    top: -300px;
-    left: -200px;
-    z-index: 20;
-  }
-  .Poligono11 {
-    position: absolute;
-    top: -300px;
-    left: 10px;
-
-    z-index: 12;
-  }
-}
-@media (max-width: 1500px) {
-  .ContainerMax {
-    width: 100%;
-  }
-  .App {
-    width: 80%;
-  }
-  .Logo {
-    position: relative;
-    right: -900px;
-  }
-}
-@media (max-width: 1440px) {
-  .ContainerMax {
-    width: 100%;
-  }
-  .App {
-    width: 80%;
-  }
-  .Logo {
-    right: -1000px;
-  }
-  h1 {
-    left: 100px;
-  }
-  .Button {
-    left: 500px;
-  }
-}
-@media (max-width: 1400px) {
-  h1 {
-    position: relative;
-    left: 210px;
-    width: 747px;
-    height: 235px;
-  }
-  .Button {
-    position: relative;
-    left: 550px;
-    top: 50px;
-    width: 350px;
-    height: 80px;
-  }
-  .Poligono1 {
-    position: absolute;
-    top: -50px;
-    left: -400px;
-    z-index: 15;
-  }
-
-  .Poligono2 {
-    position: absolute;
-    top: -450px;
-    left: -500px;
-    z-index: 16;
-  }
-
-  .Poligono3 {
-    position: absolute;
-    top: -500px;
-    left: -200px;
-    z-index: 47;
-  }
-  .Poligono5 {
-    position: absolute;
-    top: -600px;
-    left: -50px;
-    z-index: 60;
-  }
-
-  .Poligono6 {
-    position: absolute;
-    top: -600px;
-    left: 2px;
-    z-index: 60;
-  }
-
-  .Poligono7 {
-    position: absolute;
-    top: -300px;
-    left: -1500px;
-    z-index: 60;
-  }
-  .Poligono8 {
-    position: absolute;
-    top: -10px;
-    left: 10px;
-    z-index: 40;
-  }
-  .Poligono9 {
-    position: absolute;
-    top: -200px;
-    left: -400px;
-    z-index: 16;
-  }
-  .Poligono10 {
-    position: absolute;
-    top: -300px;
-    left: -200px;
-    z-index: 20;
-  }
-  .Poligono11 {
-    position: absolute;
-    top: -300px;
-    left: 10px;
-
-    z-index: 12;
-  }
-}
-@media (max-width: 1366px) {
-  .ContainerMax {
-    width: 100%;
-  }
-  .App {
+  #Cinco {
+    margin: 30px auto;
     width: 50%;
   }
-  .Logo {
-    position: relative;
-    left: 1000px;
-    width: 360px;
-    height: 360px;
-  }
-
-  h1 {
-    position: relative;
-    left: 350px;
-    width: 747px;
-    height: 235px;
-  }
-  .Button {
-    position: relative;
-    left: 550px;
-    top: 50px;
-    width: 350px;
-    height: 80px;
-  }
-  .Span {
-    color: #fff;
-    text-align: center;
-    font-family: Kodchasan;
-    font-size: 24px;
-  }
-
-  .Poligono1 {
-    position: absolute;
-    top: -360px;
-    left: -100px;
-    width: 1400px;
-    height: 1500px;
-  }
-
-  .Poligono2 {
-    position: absolute;
-    top: -250px;
-    left: 10px;
-    width: 1000px;
-    height: 1600px;
-  }
-
-  .Poligono3 {
-    position: absolute;
-    top: -700px;
-    left: -50px;
-    width: 900px;
-    height: 1800px;
-  }
-  .Poligono5 {
-    position: absolute;
-    top: -1000px;
-    left: -50px;
-    width: 900px;
-    height: 2100px;
-  }
-
-  .Poligono6 {
-    position: absolute;
-    top: -1150px;
-    left: -65px;
-    width: 750px;
-    height: 2100px;
-  }
-
-  .Poligono7 {
-    position: absolute;
-    top: -1000px;
-    left: -1px;
-    width: 900px;
-    height: 2100px;
-  }
-  .Poligono8 {
-    position: absolute;
-    top: -10px;
-    left: 10px;
-    width: 1900px;
-    height: 2000px;
-  }
-  .Poligono9 {
-    position: absolute;
-    top: -10px;
-    left: 5px;
-    width: 900px;
-    height: 1100px;
-  }
-  .Poligono10 {
-    position: absolute;
-    top: -1100px;
-    left: 5px;
-    width: 1000px;
-    height: 2500px;
-  }
-  .Poligono11 {
-    position: absolute;
-    top: -1100px;
-    left: 5px;
-  }
-}
-@media (max-width: 1280px) {
-  .ContainerMax {
-    width: 60%;
-  }
-  .App {
+  .ButtonMensaje {
     width: 50%;
   }
-  .Logo {
-    position: relative;
-    right: -900px;
-  }
-
-  h1 {
-    position: relative;
-    left: 280px;
-  }
-  .Button {
-    left: 450px;
-  }
-
-  .Poligono1 {
-    position: absolute;
-    top: -360px;
-    left: -100px;
-    width: 700px;
-  }
-
-  .Poligono2 {
-    position: absolute;
-    top: -250px;
-    left: 10px;
-    width: 400px;
-  }
-
-  .Poligono3 {
-    position: absolute;
-    top: -700px;
-    left: -50px;
-    width: 400px;
-  }
-  .Poligono5 {
-    position: absolute;
-    top: -1000px;
-    left: -50px;
-    width: 400px;
-  }
-
-  .Poligono6 {
-    position: absolute;
-    top: -1150px;
-    left: -65px;
-    width: 320px;
-  }
-
-  .Poligono7 {
-    position: absolute;
-    top: -1000px;
-    left: -1px;
-    width: 350px;
-  }
-  .Poligono8 {
-    position: absolute;
-    top: -10px;
-    left: 10px;
-    width: 2200px;
-    height: 2000px;
-  }
-  .Poligono9 {
-    position: absolute;
-    top: -10px;
-    left: 5px;
-    width: 300px;
-  }
-  .Poligono10 {
-    position: absolute;
-    top: -1100px;
-    left: -50px;
-    width: 580px;
-    height: 2500px;
-  }
-  .Poligono11 {
-    position: absolute;
-    top: -1100px;
-    left: -50px;
-    width: 500px;
-  }
-}
-@media (max-width: 1024px) {
-  .Logo {
-    right: -600px;
-  }
-  h1 {
-    left: 150px;
-  }
-  .Button {
-    left: 350px;
-  }
-}
-
-@media (max-width: 768px) {
-  .ContainerMax {
-    width: 60%;
-  }
-  .App {
-    width: 50%;
-  }
-  .Logo {
-    position: relative;
-    right: -400px;
-    width: 360px;
-    height: 360px;
-  }
-
-  h1 {
-    position: relative;
-    left: 10px;
-  }
-  .Button {
-    position: relative;
-    left: 200px;
-    top: 50px;
-  }
-}
-@media (max-width: 580px) {
-  .ContainerMax {
-    width: 40%;
-  }
-  .App {
-    width: 30%;
-    height: 50px;
-  }
-  .Logo {
-    position: relative;
-    right: -70px;
-    height: 350px;
-  }
-
-  h1 {
-    position: relative;
-    font-size: 30px;
-    width: 405px;
-    top: -100px;
-    left: 60px;
-  }
-  .Button {
-    top: -140px;
-    left: 28%;
-  }
-
-  .Poligono1 {
+  .LogoFooter {
     display: none;
   }
-
-  .Poligono2 {
-    position: absolute;
-    top: 1px;
-    left: 1px;
-    width: 350px;
-    height: 1200px;
-  }
-
-  .Poligono3 {
-    position: absolute;
-    top: 1px;
-    left: 1px;
-    width: 350px;
-    height: 1200px;
-  }
-  .Poligono5 {
-    position: absolute;
-    top: 1px;
-    left: 1px;
-    width: 350px;
-    height: 1100px;
-  }
-
-  .Poligono6 {
-    display: none;
-  }
-
-  .Poligono7 {
-    position: absolute;
-    top: 1px;
-    left: 1px;
-    width: 180px;
-    height: 800px;
-  }
-  .Poligono8 {
-    position: absolute;
-    top: 1px;
-    left: 1px;
-    width: 350px;
-    height: 900px;
-  }
-  .Poligono9 {
-    display: none;
-  }
-  .Poligono10 {
-    position: absolute;
-    top: 1px;
-    left: 1px;
-    width: 350px;
-    height: 1050px;
-  }
-  .Poligono11 {
-    position: absolute;
-    top: 1px;
-    left: 1px;
-    width: 450px;
-    height: 900px;
-  }
-}
-@media (max-width: 540px) {
-  .ContainerMax {
-    width: 40%;
-  }
-  .App {
-    width: 30%;
-    height: 50px;
-  }
-  .Logo {
-    position: relative;
-    left: 70px;
-    height: 350px;
-  }
-
-  h1 {
-    position: relative;
-    font-size: 50px;
-    width: 405px;
-    top: -100px;
-    left: 60px;
-  }
-  .Button {
-    top: -20px;
-    left: 28%;
-  }
-
-  .Poligono1 {
-    display: none;
-  }
-
-  .Poligono2 {
-    position: absolute;
-    top: 1px;
-    left: 1px;
-    width: 350px;
-    height: 1200px;
-  }
-
-  .Poligono3 {
-    position: absolute;
-    top: 1px;
-    left: 1px;
-    width: 350px;
-    height: 1200px;
-  }
-  .Poligono5 {
-    position: absolute;
-    top: 1px;
-    left: 1px;
-    width: 350px;
-    height: 1100px;
-  }
-
-  .Poligono6 {
-    display: none;
-  }
-
-  .Poligono7 {
-    position: absolute;
-    top: 1px;
-    left: 1px;
-    width: 180px;
-    height: 800px;
-  }
-  .Poligono8 {
-    position: absolute;
-    top: 1px;
-    left: 1px;
-    width: 350px;
-    height: 900px;
-  }
-  .Poligono9 {
-    display: none;
-  }
-  .Poligono10 {
-    position: absolute;
-    top: 1px;
-    left: 1px;
-    width: 350px;
-    height: 1050px;
-  }
-  .Poligono11 {
-    position: absolute;
-    top: 1px;
-    left: 1px;
-    width: 450px;
-    height: 900px;
-  }
-}
-@media (max-width: 480px) {
-  .ContainerMax {
-    width: 60%;
-  }
-  .App {
-    width: 60%;
-    height: 50px;
-  }
-  .Logo {
-    position: relative;
-    right: -50px;
-    height: 350px;
-  }
-
-  h1 {
-    position: relative;
-    font-size: 30px;
-    width: 405px;
-    top: -100px;
-    left: 10px;
-  }
-  .Button {
-    top: -150px;
-    left: 70px;
-  }
-
-  .Poligono1 {
-    display: none;
-  }
-
-  .Poligono2 {
-    position: absolute;
-    top: 1px;
-    left: -10px;
-    width: 350px;
-    height: 1200px;
-  }
-
-  .Poligono3 {
-    position: absolute;
-    top: 1px;
-    left: 1px;
-    width: 350px;
-    height: 1200px;
-  }
-  .Poligono5 {
-    position: absolute;
-    top: 1px;
-    left: 1px;
-    width: 350px;
-    height: 1100px;
-  }
-
-  .Poligono6 {
-    display: none;
-  }
-
-  .Poligono7 {
-    position: absolute;
-    top: 1px;
-    left: 1px;
-    width: 180px;
-    height: 800px;
-  }
-  .Poligono8 {
-    position: absolute;
-    top: 1px;
-    left: 1px;
-    width: 350px;
-    height: 900px;
-  }
-  .Poligono9 {
-    display: none;
-  }
-  .Poligono10 {
-    position: absolute;
-    top: 1px;
-    left: 1px;
-    width: 350px;
-    height: 1050px;
-  }
-  .Poligono11 {
-    position: absolute;
-    top: 1px;
-    left: 1px;
-    width: 450px;
-    height: 900px;
-  }
-}
-@media (max-width: 428px) {
-  .ContainerMax {
-    width: 40%;
-  }
-  .App {
-    width: 30%;
-    height: 50px;
-  }
-  .Logo {
-    position: relative;
-    left: 20px;
-    height: 350px;
-  }
-
-  h1 {
-    position: relative;
-    font-size: 30px;
-    width: 405px;
-    top: -100px;
-    left: -15px;
-  }
-  .Button {
-    top: -180px;
-    left: 30px;
-  }
-
-  .Poligono1 {
-    display: none;
-  }
-
-  .Poligono2 {
-    position: absolute;
-    top: 1px;
-    left: 1px;
-    width: 350px;
-    height: 1200px;
-  }
-
-  .Poligono3 {
-    position: absolute;
-    top: 1px;
-    left: 1px;
-    width: 350px;
-    height: 1200px;
-  }
-  .Poligono5 {
-    position: absolute;
-    top: 1px;
-    left: 1px;
-    width: 350px;
-    height: 1100px;
-  }
-
-  .Poligono6 {
-    display: none;
-  }
-
-  .Poligono7 {
-    position: absolute;
-    top: 1px;
-    left: 1px;
-    width: 180px;
-    height: 800px;
-  }
-  .Poligono8 {
-    position: absolute;
-    top: 1px;
-    left: 1px;
-    width: 350px;
-    height: 900px;
-  }
-  .Poligono9 {
-    display: none;
-  }
-  .Poligono10 {
-    position: absolute;
-    top: 1px;
-    left: 1px;
-    width: 350px;
-    height: 1050px;
-  }
-  .Poligono11 {
-    position: absolute;
-    top: 1px;
-    left: 1px;
-    width: 450px;
-    height: 900px;
-  }
-}
-@media (max-width: 390px) {
-  .ContainerMax {
-    width: 40%;
-  }
-  .App {
-    width: 30%;
-    height: 10px;
-  }
-  .Logo {
-    position: relative;
-    left: 15px;
-    height: 350px;
-  }
-
-  h1 {
-    position: relative;
-    font-size: 25px;
-    width: 405px;
-    top: -100px;
-    left: -10px;
-  }
-  .Button {
-    top: -180px;
-    left: 20px;
-  }
-
-  .Poligono1 {
-    display: none;
-  }
-
-  .Poligono2 {
-    display: none;
-  }
-
-  .Poligono3 {
-    display: none;
-  }
-  .Poligono5 {
-    display: none;
-  }
-
-  .Poligono6 {
-    display: none;
-  }
-
-  .Poligono7 {
-    display: none;
-  }
-  .Poligono8 {
-    display: none;
-  }
-  .Poligono9 {
-    display: none;
-  }
-  .Poligono10 {
-    display: none;
-  }
-  .Poligono11 {
-    display: none;
-  }
-}
-
-@media (max-width: 375px) {
-  .ContainerMax {
-    width: 40%;
-  }
-  .App {
-    width: 30%;
-    height: 50px;
-  }
-  .Logo {
-    position: relative;
-    right: -15px;
-    height: 350px;
-  }
-
-  h1 {
-    position: relative;
-    font-size: 25px;
-    width: 405px;
-    top: -100px;
-    left: -10px;
-  }
-  .Button {
-    top: -180px;
-    left: 20px;
+  .social-container {
+    display: flex;
+    margin: auto;
+    margin-top: 10%;
+  }
+  .ContenedorFooterFinis {
+    padding: 30px;
+  }
+  .contenedorP p {
+    font-size: 18px;
   }
 }
