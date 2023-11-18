@@ -80,7 +80,7 @@ function Home() {
           </a>
         </button>
       </section>
-      <section className="Section2">
+      <section className="Section2" id="SobreNosotros">
         <button className="Button">
           <a href="#ButtonContacto" style={{ textDecoration: "none" }}>
             <span className="Span" id="MenuInicio">
@@ -98,7 +98,7 @@ function Home() {
           asesorías estratégicas que transforman negocios.
         </p>
       </section>
-      <section className="Section3">
+      <section className="Section3" id="Desarrolloweb">
         <button className="Button">
           <a href="#ButtonContacto" style={{ textDecoration: "none" }}>
             <span className="Span" id="MenuInicio">
@@ -140,7 +140,7 @@ function Home() {
           </a>
         </button>
 
-        <div className="divCardss">
+        <div className="divCardss" id="Servicios">
           <div className="Cardss">
             <Card.Body>
               <Card.Text>
@@ -199,7 +199,7 @@ function Home() {
               </span>
             </Card.Body>
           </div>
-          <div className="Cardss">
+          <div className="Cardss" id="SistemaPOS">
             <Card.Body>
               <Card.Text>
                 <div className="ServiciosDiv">
@@ -252,7 +252,7 @@ function Home() {
       </section>
       <section>
         <div className="fila">
-          <button className="Button">
+          <button className="Button" id="ButtonContacto">
             <a href="#ButtonContacto" style={{ textDecoration: "none" }}>
               <span className="Span" id="MenuInicio">
                 Contacto
