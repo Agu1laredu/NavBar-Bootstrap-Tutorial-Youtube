@@ -149,8 +149,7 @@ function Home() {
                 </div>
               </Card.Text>{" "}
               <span className="ParrafoCard">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                Almacenamiento en servidores para alojar tu sitio web.
               </span>
               <Card.Text>
                 <div className="ServiciosDiv">
@@ -158,8 +157,8 @@ function Home() {
                 </div>
               </Card.Text>{" "}
               <span className="ParrafoCard">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                La dirección web que identifica tu sitio (por ejemplo,
+                www.ejemplo.com).
               </span>
               <Card.Text>
                 <div className="ServiciosDiv">
@@ -167,8 +166,8 @@ function Home() {
                 </div>
               </Card.Text>{" "}
               <span className="ParrafoCard">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                Creación y personalización de la apariencia y funcionalidad del
+                sitio.
               </span>
               <Card.Text>
                 <div className="ServiciosDiv">
@@ -177,16 +176,15 @@ function Home() {
               </Card.Text>
               <Card.Text>
                 <span className="ParrafoCard">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  Creación y gestión de textos, imágenes y multimedia.
                 </span>
                 <div className="ServiciosDiv">
                   <p>SEGURIDAD</p>
                 </div>
               </Card.Text>{" "}
               <span className="ParrafoCard">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                Implementación de medidas para proteger contra amenazas
+                cibernéticas.
               </span>
               <Card.Text>
                 <div className="ServiciosDiv">
@@ -194,8 +192,7 @@ function Home() {
                 </div>
               </Card.Text>{" "}
               <span className="ParrafoCard">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                Mejora de la visibilidad en los resultados de búsqueda.
               </span>
             </Card.Body>
           </div>
@@ -207,8 +204,8 @@ function Home() {
                 </div>
               </Card.Text>
               <span className="ParrafoCard">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                Sistema de software para gestionar transacciones y ventas en
+                tiendas físicas.
               </span>
               <Card.Text>
                 <div className="ServiciosDiv">
@@ -216,8 +213,7 @@ function Home() {
                 </div>
               </Card.Text>
               <span className="ParrafoCard">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                Seguimiento y gestión de existencias de productos.
               </span>
               <Card.Text>
                 <div className="ServiciosDiv">
@@ -225,8 +221,7 @@ function Home() {
                 </div>
               </Card.Text>
               <span className="ParrafoCard">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                Creación y envío de facturas a clientes.
               </span>
               <Card.Text>
                 <div className="ServiciosDiv">
@@ -234,8 +229,7 @@ function Home() {
                 </div>
               </Card.Text>{" "}
               <span className="ParrafoCard">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                Control de horarios y tareas de los empleados.
               </span>
               <Card.Text>
                 <div className="ServiciosDiv">
@@ -243,8 +237,7 @@ function Home() {
                 </div>
               </Card.Text>{" "}
               <span className="ParrafoCard">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                Generación de informes sobre ventas, inventario y otros datos.
               </span>
             </Card.Body>
           </div>
